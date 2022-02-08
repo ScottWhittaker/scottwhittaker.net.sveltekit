@@ -9,5 +9,6 @@
     <link rel="stylesheet" href="/ally-light.css">
 </svelte:head>
 
+<h2>{title}</h2>
 <slot></slot>
 

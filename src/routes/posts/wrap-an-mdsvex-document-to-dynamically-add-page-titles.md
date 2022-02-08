@@ -4,10 +4,8 @@ description: How to wrap an mdsvex document with a layout component allowing you
 layout: post
 slug: wrap-an-mdsvex-document-to-dynamically-add-page-titles
 tags: post
-title:  Wrap an mdsvex document to dynamically add page titles
+title: Wrap an mdsvex document to dynamically add page titles
 ---
-
-## {title}
 
 When putting this starter template together I wanted to dynamically update the document page title for each post so that the title would be reflected in the browser tab.
 
