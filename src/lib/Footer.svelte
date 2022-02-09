@@ -1,6 +1,8 @@
 <footer class="g-full-bleed">
     <div class="g-wrapper">
-        <p>Footer</p>
+        <p>
+            <code>// TODO replace this code with something better</code>
+        </p>
     </div>
 </footer>
 
@@ -8,10 +10,15 @@
     footer {
         margin-top: 8rem;
         padding-bottom: 4rem;
+        font-size: smaller;
+    }
+    .g-wrapper {
+        border-top: 1px solid #eee;
     }
     p {
-        padding-top: 2rem;
-        border-top: 1px solid #eee;
-        font-weight: bold;
+        padding-top: 1rem;
+    }
+    code {
+        font-size: smaller;
     }
 </style>
