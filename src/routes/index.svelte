@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>Home</title>
+    <title>Scott Whittaker</title>
     <meta name="description" content="Just another Sveltekit stater blog">
 </svelte:head>
 
