@@ -12,7 +12,7 @@ Assuming you have [astro](https://docs.astro.build/quick-start/) installed alrea
 
 ## Install the Svelte renderer
 
-```javascript
+```bash
 npm install @astrojs/renderer-svelte
 ```
 
