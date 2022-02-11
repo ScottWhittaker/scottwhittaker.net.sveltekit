@@ -28,6 +28,10 @@ blockquote {
     font-size: smaller;
 }
 
+blockquote p {
+    margin-top: 0;
+}
+
 p code {
     word-break: break-all;
     font-size: smaller;
@@ -36,6 +40,11 @@ p code {
 cite {
     display: block;
     margin-top: .5rem;
+}
+
+cite:before {
+    padding-right: .5rem;
+    content: '\2014';
 }
 
 time {
