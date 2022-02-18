@@ -16,7 +16,7 @@ Rendering different views into the [DOM][3] is straightforward with [Aurelia][1]
 
 Take this example from [BBC iPlayer](http://www.bbc.co.uk/iplayer). It has a list on the left hand side, a large featured item in the centre and 2 smaller, regular content items on the right.
 
-![Example content grid from BBC iPlayer](/static/posts/heterogeneous-grid-iplayer.jpg)
+![Example content grid from BBC iPlayer](/posts/heterogeneous-grid-iplayer.jpg)
 
 ## Example
 

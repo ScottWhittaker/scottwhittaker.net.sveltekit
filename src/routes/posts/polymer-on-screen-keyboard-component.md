@@ -14,5 +14,5 @@ Experimental simple on-screen keyboard for use on connected TV's, STB's and game
 - [Component Page](http://scottwhittaker.github.io/ff-simple-osk/components/ff-simple-osk/)
 - [Demo](http://scottwhittaker.github.io/ff-simple-osk/components/ff-simple-osk/demo.html) (use Chrome)
 
-![Triple Tap Component](/static/posts/ff-simple-osk.png)
+![Triple Tap Component](/posts/ff-simple-osk.png)
 

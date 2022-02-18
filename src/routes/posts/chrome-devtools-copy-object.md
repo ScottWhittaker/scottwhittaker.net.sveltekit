@@ -35,19 +35,19 @@ Go ahead and open the console if you want to copy the object yourself. Mac: `Cmd
 
 Right click on the object in the console and select **Store as Global Variable**.
 
-![Step 1](/static/posts/chrome-devtools-copy-step-1.png)
+![Step 1](/posts/chrome-devtools-copy-step-1.png)
 
 ### Step 2
 
 A global variable named `temp1` has been created.
 
-![Step 2](/static/posts/chrome-devtools-copy-step-2.png)
+![Step 2](/posts/chrome-devtools-copy-step-2.png)
 
 ### Step 3
 
 Use the `copy` function to copy the object as a string to the clipboard - `copy(temp1)`
 
-![Step 3](/static/posts/chrome-devtools-copy-step-3.png)
+![Step 3](/posts/chrome-devtools-copy-step-3.png)
 
 ### Step 4
 

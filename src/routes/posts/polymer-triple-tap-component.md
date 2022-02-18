@@ -14,5 +14,5 @@ Experimental triple-tap component intended for use on connected TV's via a 5-way
 - [Component Page](http://scottwhittaker.github.io/ff-tripletap/components/ff-tripletap/)
 - [Demo](http://scottwhittaker.github.io/ff-tripletap/components/ff-tripletap/demo.html) (use Chrome)
 
-![Triple Tap Component](/static/posts/ff-triple-tap.png)
+![Triple Tap Component](/posts/ff-triple-tap.png)
 

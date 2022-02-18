@@ -19,5 +19,5 @@ I did this a while ago (6th June 2018), so the Github pricing page has changed a
 You can see the [demo here](/repro/github-pricing-page-using-tailwind-css/) or mess around on [Codepen](https://codepen.io/ScottWhittaker/pen/PaGZMO). The screenshot below shows the demo on a mobile device.
 
 <div style="display: flex; justify-content: center; padding-top: 2rem;">
-  <img alt="Screenshot of Github pricing page demo on mobile device" width="400" height="1600" src="/static/posts/github-pricing-page.png">
+  <img alt="Screenshot of Github pricing page demo on mobile device" width="400" height="1600" src="/posts/github-pricing-page.png">
 </div>

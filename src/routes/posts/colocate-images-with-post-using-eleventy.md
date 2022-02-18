@@ -33,8 +33,8 @@ The alternative is to locate all your images in a top level image directory. A c
 
 <figure>
     <picture>
-        <source srcset="/static/posts/subway.webp" type="image/webp">
-        <img alt="Empty seats on a New York subway car" width="600" height="400" src="/static/posts/subway.jpg">
+        <source srcset="/posts/subway.webp" type="image/webp">
+        <img alt="Empty seats on a New York subway car" width="600" height="400" src="/posts/subway.jpg">
     </picture>
     <figcaption>An example image: Empty seats on a New York subway car</figcaption>
 </figure>
@@ -102,8 +102,8 @@ npx @11ty/eleventy --serve --formats=md,jpg
 
 <figure>
     <picture>
-        <source srcset="/static/posts/umbrellas-and-kites.webp" type="image/webp">
-        <img alt="Beach umbrellas and kites flying" width="600" height="400" src="/static/posts/umbrellas-and-kites.jpg" />
+        <source srcset="/posts/umbrellas-and-kites.webp" type="image/webp">
+        <img alt="Beach umbrellas and kites flying" width="600" height="400" src="/posts/umbrellas-and-kites.jpg" />
     </picture>
     <figcaption>An example image: Beach umbrellas and kites flying</figcaption>
 </figure>
