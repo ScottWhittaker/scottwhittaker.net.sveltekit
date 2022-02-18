@@ -55,7 +55,7 @@ git reset --hard HEAD~1
 
 > **--hard**
 Resets the index and working tree. Any changes to tracked files in the working tree since &lt;commit&gt; are discarded.
-<cite>[git-reset Documentation](https://git-scm.com/docs/git-reset#Documentation/git-reset.txt---hard)</cite>
+<cite><a href="https://git-scm.com/docs/git-reset#Documentation/git-reset.txt---hard">git-reset Documentation</a></cite>
 
 ## Discard merge
 

@@ -11,7 +11,7 @@ In a [previous post](/posts/javascript-sequential-array-of-numbers/) I used `new
 I also wondered what happens if I drop the `new` operator as in `Array(4)`? Well nothing changes as it turns out that when calling the array constructor as a function a new array object is created for you.
 
 > When Array is called as a function rather than as a constructor, it creates and initialises a new Array object. Thus the function call Array(…) is equivalent to the object creation expression new Array(…) with the same arguments.
-<cite>[Standard ECMA-262 5.1 Edition / June 2011](https://www.ecma-international.org/ecma-262/5.1/#sec-15.4.1)</cite>
+<cite><a href="https://www.ecma-international.org/ecma-262/5.1/#sec-15.4.1">Standard ECMA-262 5.1 Edition / June 2011</a></cite>
 
 ```js
 [...Array(4).keys()];

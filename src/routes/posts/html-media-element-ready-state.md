@@ -9,7 +9,7 @@ title:  HTMLMediaElement.readyState
 
 I can never recall the `readyState` property of the `HTMLMediaElement` when I need it so here it is as defined by MDN, hopefully it will remain in the brain a little longer now that I have copied it here.
 
-> The HTMLMediaElement.readyState property indicates the readiness state of the media. <cite>[MDN HTMLMediaElement.readyState](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/readyState)</cite>
+> The HTMLMediaElement.readyState property indicates the readiness state of the media. <cite><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/readyState">MDN HTMLMediaElement.readyState</a></cite>
 
 <div style="overflow-x: auto;">
 

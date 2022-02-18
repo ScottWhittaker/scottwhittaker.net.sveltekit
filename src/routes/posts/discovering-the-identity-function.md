@@ -66,7 +66,7 @@ There is nothing at all wrong with the above fix but I had a niggling feeling th
 It turns out that in functional programming there is a common base utility function called `identity` which returns the argument that it receives.
 
 > Because identity(..) simply returns the value passed to it, JS coerces each value into either true or false, and that determines whether to keep or exclude each value in the final array.
-<cite>[Functional-Light JavaScript](https://github.com/getify/Functional-Light-JS/blob/master/manuscript/ch3.md/#one-on-one)</cite>
+<cite><a href="https://github.com/getify/Functional-Light-JS/blob/master/manuscript/ch3.md/#one-on-one">Functional-Light JavaScript</a></cite>
 
 For example the [lodash](https://lodash.com/docs/#identity) library has an identity function.
 
@@ -94,7 +94,7 @@ console.log(result); // [ { id: '2' }, { id: '378' } ]
 It turns out that we can also use the built-in [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean) function to achieve the same thing.
 
 > Tip: Another unary function that can be used as the predicate in the previous example is JS's built-in Boolean(..) function, which explicitly coerces a value to true or false.
-<cite>[Functional-Light JavaScript](https://github.com/getify/Functional-Light-JS/blob/master/manuscript/ch3.md/#one-on-one)</cite>
+<cite><a href="https://github.com/getify/Functional-Light-JS/blob/master/manuscript/ch3.md/#one-on-one">Functional-Light JavaScript</a></cite>
 
 ```js
 const result =

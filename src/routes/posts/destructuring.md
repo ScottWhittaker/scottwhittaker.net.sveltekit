@@ -8,7 +8,7 @@ title: Destructuring
 ---
 
 > The destructuring assignment syntax is a JavaScript expression that makes it possible to extract data from arrays or objects into distinct variables.
-<cite>[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)</cite>
+<cite><a href="https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment">MDN</a></cite>
 
 
 ### Object Destructuring

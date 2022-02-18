@@ -18,7 +18,7 @@ var stub = sinon.stub(obj);
 This is what the docs say about it...
 
 > Stubs all the object’s methods. Note that it’s usually better practice to stub individual methods, particularly on objects that you don’t understand or control all the methods for (e.g. library dependencies). Stubbing individual methods tests intent more precisely and is less susceptible to unexpected behavior as the object’s code evolves.
-<cite>[Sinon stub documentation](http://sinonjs.org/docs/#stubs)</cite>
+<cite><a href="http://sinonjs.org/docs/#stubs">Sinon stub documentation</a></cite>
 
 
 ## The Error

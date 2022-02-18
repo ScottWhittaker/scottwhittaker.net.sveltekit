@@ -12,7 +12,7 @@ What do these terms mean? They are often cited when reading introductions to var
 
 Tell the computer how to do something, we have to explicitly code all the details.
 
-> In computer science, imperative programming is a programming paradigm that uses statements that change a program's state. In much the same way that the imperative mood in natural languages expresses commands, an imperative program consists of commands for the computer to perform. Imperative programming focuses on describing how a program operates. <cite>[wikipedia](https://en.wikipedia.org/wiki/Imperative_programming)</cite>
+> In computer science, imperative programming is a programming paradigm that uses statements that change a program's state. In much the same way that the imperative mood in natural languages expresses commands, an imperative program consists of commands for the computer to perform. Imperative programming focuses on describing how a program operates. <cite><a href="https://en.wikipedia.org/wiki/Imperative_programming">wikipedia</a></cite>
 
 A simple example, an imperative function to sum a list of numbers...
 

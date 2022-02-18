@@ -45,4 +45,4 @@ Add `.idea` in this file and it will be ignored by git.
 Atlassian describe them as Personal Git ignore rules and define it far better than I can.
 
 > You can also define personal ignore patterns for a particular repository in a special file at .git/info/exclude. These are not versioned, and not distributed with your repository, so it's an appropriate place to include patterns that will likely only benefit you. For example if you have a custom logging setup, or special development tools that produce files in your repository's working directory, you could consider adding them to .git/info/exclude to prevent them from being accidentally committed to your repository.
-<cite>[Atlassian](https://www.atlassian.com/git/tutorials/saving-changes/gitignore)</cite>
+<cite><a href="https://www.atlassian.com/git/tutorials/saving-changes/gitignore">Atlassian</a></cite>

@@ -33,4 +33,4 @@ git commit --amend --no-edit
 
 > **--no-edit**
 Use the selected commit message without launching an editor. For example, git commit --amend --no-edit amends a commit without changing its commit message.
-<cite>[git-commit Documentation](https://git-scm.com/docs/git-commit#Documentation/git-commit.txt---no-edit)</cite>
+<cite><a href="https://git-scm.com/docs/git-commit#Documentation/git-commit.txt---no-edit">git-commit Documentation</a></cite>
