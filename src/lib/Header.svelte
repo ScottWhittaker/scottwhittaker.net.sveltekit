@@ -29,9 +29,13 @@
         .wrapper {
             flex-direction: row;
         }
+        header {
+            padding-top: 2rem;
+        }
         h1 {
             flex: 1;
             margin: 0;
+            font-size: 1.5rem;
         }
     }
 </style>
