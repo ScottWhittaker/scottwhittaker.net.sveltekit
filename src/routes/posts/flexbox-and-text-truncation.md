@@ -11,6 +11,8 @@ Text truncation issue with flexbox? As always [css-tricks](https://css-tricks.co
 
 ## Example
 
-<p data-height="1000" data-theme-id="27729" data-slug-hash="apKqpK" data-default-tab="result" data-user="ScottWhittaker" data-embed-version="2" data-pen-title="Text truncation issue with flexbox" class="codepen">See the Pen <a href="http://codepen.io/ScottWhittaker/pen/apKqpK/">Text truncation issue with flexbox</a> by Scott Whittaker (<a href="http://codepen.io/ScottWhittaker">@ScottWhittaker</a>) on <a href="http://codepen.io">CodePen</a>.</p>
- <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-
+<iframe height="300" style="width: 100%;" scrolling="no" title="Text truncation issue with flexbox" src="https://codepen.io/ScottWhittaker/embed/apKqpK?default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/ScottWhittaker/pen/apKqpK">
+  Text truncation issue with flexbox</a> by Scott Whittaker (<a href="https://codepen.io/ScottWhittaker">@ScottWhittaker</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
