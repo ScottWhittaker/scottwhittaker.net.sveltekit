@@ -18,3 +18,11 @@
 </main>
 
 <Footer/>
+
+<style>
+    @media (min-width: 640px) {
+        main {
+            padding-top: 4rem;
+        }
+    }
+</style>
