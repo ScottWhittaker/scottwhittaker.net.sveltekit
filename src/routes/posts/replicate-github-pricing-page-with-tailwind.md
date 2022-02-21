@@ -16,7 +16,7 @@ Tailwind appears to divide opinion but I really like working with it. I found I 
 
 I did this a while ago (6th June 2018), so the Github pricing page has changed and Tailwind has also advanced, but these replications show how it used to look.
 
-You can see the [demo here](/repro/github-pricing-page-using-tailwind-css/) or mess around on [Codepen](https://codepen.io/ScottWhittaker/pen/PaGZMO). The screenshot below shows the demo on a mobile device.
+You can see the <a href="/github-pricing-page-using-tailwind-css/index.html" target="_blank">demo here</a> or mess around on [Codepen](https://codepen.io/ScottWhittaker/pen/PaGZMO). The screenshot below shows the demo on a mobile device.
 
 <div style="display: flex; justify-content: center; padding-top: 2rem;">
   <img alt="Screenshot of Github pricing page demo on mobile device" width="400" height="1600" src="/posts/github-pricing-page.png">
