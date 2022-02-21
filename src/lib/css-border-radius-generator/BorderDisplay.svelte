@@ -37,7 +37,19 @@
 		justify-content: center;
 	}
 	.target {
-		background-color: #206de6;
+		background-image: linear-gradient(
+				45deg,
+				hsl(240deg 3% 6%) 0%,
+				hsl(240deg 1% 9%) 21%,
+				hsl(240deg 1% 11%) 30%,
+				hsl(240deg 1% 14%) 39%,
+				hsl(240deg 1% 16%) 46%,
+				hsl(240deg 0% 18%) 54%,
+				hsl(240deg 0% 21%) 61%,
+				hsl(240deg 0% 23%) 69%,
+				hsl(240deg 0% 26%) 79%,
+				hsl(0deg 0% 29%) 100%
+		);
 	}
 
 	.controls {
