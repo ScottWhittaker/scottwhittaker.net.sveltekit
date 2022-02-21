@@ -11,21 +11,19 @@
 <style>
     nav {
         display: flex;
-        gap: 8px;
-        padding-bottom: 1rem;
-        border-bottom: 1px solid #eee;
+        gap: 16px;
         font-size: 1.125rem;
-        line-height: 1.5;
     }
     a {
         text-decoration: none;
-        padding: .5rem;
-        border-radius: 4px;
+        border-bottom: 4px solid transparent;
     }
     a:hover {
-        text-decoration: underline;
+        text-decoration: none;
+        color: inherit;
+        border-bottom-color: var(--grey-dark);
     }
     .selected {
-        background-color: var(--grey-light);
+        border-bottom-color: var(--blue-600);
     }
 </style>

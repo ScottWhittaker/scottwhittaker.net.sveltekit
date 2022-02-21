@@ -13,7 +13,7 @@
         font-size: smaller;
     }
     .g-wrapper {
-        border-top: 1px solid #eee;
+        border-top: 1px solid var(--grey-lighter);
     }
     p {
         padding-top: 1rem;
