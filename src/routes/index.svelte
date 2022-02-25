@@ -1,9 +1,8 @@
 <script context="module">
-
 	import { getRecentPosts } from '$lib/utils.js';
 
 	export async function load() {
-		const recentPosts = await getRecentPosts(6)
+		const recentPosts = await getRecentPosts(6);
 		return {
 			props: {
 				posts: recentPosts
