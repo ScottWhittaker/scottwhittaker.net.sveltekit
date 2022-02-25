@@ -1,10 +1,9 @@
 <script context="module">
+
+	import { getRecentPosts } from '$lib/utils.js';
+
 	export async function load() {
-		const posts = import.meta.globEager('./posts/*.md');
-		const postsList = Object.values(posts);
-		const postsMeta = postsList.map((post) => post.metadata);
-		const sortedPosts = postsMeta.sort((a, b) => new Date(b.date) - new Date(a.date));
-		const recentPosts = sortedPosts.slice(0, 6);
+		const recentPosts = await getRecentPosts(6)
 		return {
 			props: {
 				posts: recentPosts

@@ -1,9 +1,8 @@
 <script context="module">
+	import { getSortedPosts } from '$lib/utils';
+
 	export async function load() {
-		const posts = import.meta.globEager('./*.md');
-		const postsList = Object.values(posts);
-		const postsMeta = postsList.map((post) => post.metadata);
-		const sortedPosts = postsMeta.sort((a, b) => new Date(b.date) - new Date(a.date));
+		const sortedPosts = await getSortedPosts();
 		return {
 			props: {
 				posts: sortedPosts
