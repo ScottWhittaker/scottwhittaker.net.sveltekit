@@ -11,7 +11,7 @@ I was working on a rating dialog recently so thought it would be interesting to 
 
 Here is a working example...
 
-<iframe class="iframe" src="https://gist.run/embed.html?id=5ff428cff8eedd0fdabe53d2cac00e8c"></iframe>
+<iframe title="Aurelia - Rating Dialog" class="iframe" src="https://gist.run/embed.html?id=5ff428cff8eedd0fdabe53d2cac00e8c"></iframe>
 
 ## Install and Configure
 
