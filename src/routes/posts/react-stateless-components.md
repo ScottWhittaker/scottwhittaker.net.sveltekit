@@ -15,6 +15,8 @@ This is what the docs have to say about stateless functions...
 
 ## Examples
 
-<p data-height="620" data-theme-id="0" data-slug-hash="VjBErB" data-default-tab="js,result" data-user="ScottWhittaker" data-embed-version="2" data-preview="true" class="codepen">See the Pen <a href="https://codepen.io/ScottWhittaker/pen/VjBErB/">React Stateless Components</a> by Scott Whittaker (<a href="http://codepen.io/ScottWhittaker">@ScottWhittaker</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-
+<iframe height="300" style="width: 100%;" scrolling="no" title="React Stateless Components" src="https://codepen.io/ScottWhittaker/embed/VjBEMB?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/ScottWhittaker/pen/VjBEMB">
+  React Stateless Components</a> by Scott Whittaker (<a href="https://codepen.io/ScottWhittaker">@ScottWhittaker</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
