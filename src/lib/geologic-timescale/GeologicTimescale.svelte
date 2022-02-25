@@ -679,10 +679,4 @@
     .epoch {
         min-width: 160px;
     }
-
-    .age {
-        width: 200px;
-    }
-
-
 </style>
