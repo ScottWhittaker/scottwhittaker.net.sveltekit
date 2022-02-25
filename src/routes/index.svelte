@@ -69,8 +69,7 @@
 
     h2 {
         margin: 0;
-        color: #9ca3af;
-
+        color: var(--white);
     }
 
     .grid-wrapper {
@@ -90,7 +89,6 @@
     .grid div {
         background-color: var(--grey-900);
         padding: 1rem;
-        color: #eee;
         font-family: sans-serif;
     }
 

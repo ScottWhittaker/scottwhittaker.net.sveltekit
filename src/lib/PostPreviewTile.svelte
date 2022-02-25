@@ -7,7 +7,9 @@
 
 <article>
     <a href={`/posts/${slug}`}><h3 class="title">{title}</h3></a>
-    <PostDateTime {date} />
+    <div>
+        <PostDateTime {date} />
+    </div>
 </article>
 
 <style>
@@ -24,5 +26,12 @@
     a:hover {
         color: var(--white);
         text-decoration: underline;
+    }
+
+    div {
+        display: inline-block;
+        color: var(--grey-400);
+        border-radius: 4px;
+        font-size: smaller;
     }
 </style>
