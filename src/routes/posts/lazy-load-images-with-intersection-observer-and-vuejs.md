@@ -1,13 +1,13 @@
 ---
-date:   2018-12-16
+date: 2018-12-16
 layout: post
 slug: lazy-load-images-with-intersection-observer-and-vuejs
 tags:
-    - post
-    - vuejs
-    - lazy-load
-    - intersection-observer
-title:  Lazy load images with Intersection Observer API and Vue.js
+  - post
+  - vuejs
+  - lazy-load
+  - intersection-observer
+title: Lazy load images with Intersection Observer API and Vue.js
 ---
 
 An example of using the [Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API) to lazy load images with [Vue.js](https://vuejs.org/). Inspired by [this lesson on egghead.io](https://egghead.io/lessons/vue-js-lazy-load-images-using-intersection-observer-api).

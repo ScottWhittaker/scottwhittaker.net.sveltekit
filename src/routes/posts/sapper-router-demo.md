@@ -1,10 +1,10 @@
 ---
-date:   2019-06-16
+date: 2019-06-16
 description: A simple Sapper router demo including examples of nested routes
 layout: post
 slug: sapper-router-demo
 tags: post
-title:  Sapper Router Demo
+title: Sapper Router Demo
 ---
 
 [Svelte](https://svelte.dev/) looks very appealing, I have read through the examples and wanted to look at how routing works before going any further. [Sapper](https://sapper.svelte.dev/) is the framework for Svelte that handles routing, I am going to dip my toe in with a demo that is similar to the one I did for Aurelia [in a previous post](/posts/aurelia-router-demo-on-codesandbox/); a simple demo showing how nested routes work.
@@ -108,7 +108,7 @@ But what about our other nested pages, how do we access those? We need to create
 
 <style>
 	.selected {
-		color: rgb(255,62,0);
+		color: rgb(255, 62, 0);
 	}
 </style>
 
@@ -116,9 +116,15 @@ But what about our other nested pages, how do we access those? We need to create
 
 <nav>
 	<ul>
-		<li><a class="{segment === 'account' ? 'selected' : ''}" href="profile/account/">account</a></li>
+		<li>
+			<a class="{segment === 'account' ? 'selected' : ''}" href="profile/account/">account</a>
+		</li>
 		<li><a class="{segment === 'email' ? 'selected' : ''}" href="profile/email">email</a></li>
-		<li><a class="{segment === 'notifications' ? 'selected' : ''}" href="profile/notifications">notifications</a></li>
+		<li>
+			<a class="{segment === 'notifications' ? 'selected' : ''}" href="profile/notifications"
+				>notifications</a
+			>
+		</li>
 	</ul>
 </nav>
 
@@ -142,22 +148,30 @@ Again, we need to create a menu for these nested pages so we need a `_layout.sve
 
 ```html
 <script>
-    export let segment;
+	export let segment;
 </script>
 
 <style>
 	.selected {
-		color: rgb(255,62,0);
+		color: rgb(255, 62, 0);
 	}
 </style>
 
 <h2>Account</h2>
 
 <nav>
-    <ul>
-        <li><a class='{segment === "username" ? "selected" : ""}' href='profile/account/username'>Username</a></li>
-        <li><a class='{segment === "password" ? "selected" : ""}' href='profile/account/password'>Password</a></li>
-    </ul>
+	<ul>
+		<li>
+			<a class='{segment === "username" ? "selected" : ""}' href="profile/account/username"
+				>Username</a
+			>
+		</li>
+		<li>
+			<a class='{segment === "password" ? "selected" : ""}' href="profile/account/password"
+				>Password</a
+			>
+		</li>
+	</ul>
 </nav>
 
 <slot></slot>

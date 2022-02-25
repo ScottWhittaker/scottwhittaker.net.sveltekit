@@ -1,15 +1,13 @@
 ---
-date:   2019-08-06
+date: 2019-08-06
 description: Show or hide the icons on OSX desktop from the command line using an alias
 layout: post
 slug: osx-show-hide-desktop
 tags: post
-title:  Show or Hide Desktop on OSX
+title: Show or Hide Desktop on OSX
 ---
 
-
 Useful tip [found here](https://twitter.com/tweetsbymichiel/status/1150782371358289920) allowing you to hide all the icons on the desktop from the command line.
-
 
 ```shell
 # Desktop

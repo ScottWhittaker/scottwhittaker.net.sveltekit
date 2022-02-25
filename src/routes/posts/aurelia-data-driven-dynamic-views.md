@@ -55,14 +55,12 @@ Notice that there are 3 different values for `type:` `quote | standard | feature
 
 For each of these types we will render the corresponding html template in a list.
 
-
 ### Rendering the Views
 
 We will assume we are rendering our list on a Home page. In [Aurelia][1] you create a `.js` file and a corresponding `.html` file with the same name in order to create a model and a view respectively.
 
 - `home.js` - _the model_
 - `home.html` - _the view_
-
 
 #### Model
 
@@ -71,81 +69,73 @@ In the model we fetch data in the `activate` function and assign it to a variabl
 ```js
 // home.js
 
-import {inject} from 'aurelia-framework';
-import {HttpClient} from 'aurelia-fetch-client';
+import { inject } from 'aurelia-framework';
+import { HttpClient } from 'aurelia-fetch-client';
 
 let url = './data.json';
 
 @inject(HttpClient)
 export class Home {
+	data = [];
 
-  data = [];
+	constructor(http) {
+		this.http = http;
+	}
 
-  constructor(http) {
-    this.http = http;
-  }
-
-  activate() {
-    return this.http.fetch(url)
-      .then(response => response.json())
-      .then((response) => {
-        this.data = response;
-    });
-  }
+	activate() {
+		return this.http
+			.fetch(url)
+			.then((response) => response.json())
+			.then((response) => {
+				this.data = response;
+			});
+	}
 }
 ```
 
 #### View
 
 ```html
-
 <!-- home.html -->
 
 <template>
-  <h2>Home</h2>
-  <div repeat.for="item of data">
-    <compose view="media-${item.type}.html" containerless></compose>
-  </div>
+	<h2>Home</h2>
+	<div repeat.for="item of data">
+		<compose view="media-${item.type}.html" containerless></compose>
+	</div>
 </template>
-
 ```
 
 In the view we use a repeater to iterate through the array of objects in `data` that was defined in the model. For each iteration, a local variable `item` is assigned the value of the current item in the array. In our example, this means that in the first iteration of the repeater, `item` will be assigned the following data...
 
 ```json
-
 {
-  "citation": {
-    "text": "Aurelia Docs",
-    "url": "http://aurelia.io/docs.html"
-  },
-  "quote": "The compose Custom Element enables you to dynamically render UI into the DOM. Imagine you have a heterogeneous array of items, but each has a type property which tells you what it is.\r\n",
-  "type": "quote"
+	"citation": {
+		"text": "Aurelia Docs",
+		"url": "http://aurelia.io/docs.html"
+	},
+	"quote": "The compose Custom Element enables you to dynamically render UI into the DOM. Imagine you have a heterogeneous array of items, but each has a type property which tells you what it is.\r\n",
+	"type": "quote"
 }
-
 ```
 
 Notice the `compose` element in the repeater. The compose element enables us to include other views within our current view. For this example we use the `view` attribute to specify the name of the view and we determine the view file name by using the value of `item.type`. The `${}` syntax is string interpolation, this allows us to build up our file name dynamically from data.
 
 ```html
-
 <compose view="media-${item.type}.html" containerless></compose>
-
 ```
 
 Thus, for each iteration of the repeater a different view is 'composed' based on the `type` value defined in the data.
 
 ```html
-
 <div repeat.for="item of data">
-  <!-- 1st iteration -->
-  <compose view="media-quote.html" containerless></compose>
-  <!-- 2nd iteration -->
-  <compose view="media-standard.html" containerless></compose>
-  <!-- 3rd iteration -->
-  <compose view="media-feature.html" containerless></compose>
+	<!-- 1st iteration -->
+	<compose view="media-quote.html" containerless></compose>
+	<!-- 2nd iteration -->
+	<compose view="media-standard.html" containerless></compose>
+	<!-- 3rd iteration -->
+	<compose view="media-feature.html" containerless></compose>
 </div>
-
 ```
 
 Take a look at the [example][5].
@@ -153,7 +143,6 @@ Take a look at the [example][5].
 ## Conclusion
 
 Nothing much more to say other than it is **very easy** to compose data driven views with [Aurelia][1].
-
 
 [1]: http://aurelia.io/
 [2]: http://aurelia.io/docs.html#/aurelia/framework/1.0.0-beta.1.1.4/doc/article/getting-started

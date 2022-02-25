@@ -3,7 +3,7 @@ date: 2017-04-18
 layout: post
 slug: imperative-vs-declarative
 tags: post
-title:  Imperative vs Declarative
+title: Imperative vs Declarative
 ---
 
 What do these terms mean? They are often cited when reading introductions to various frameworks or tutorials, here is a brief overview.
@@ -18,14 +18,14 @@ A simple example, an imperative function to sum a list of numbers...
 
 ```js
 function imperativeSum(numbers) {
-    let total = 0;
-    for (let i = 0; i < numbers.length; i++) {
-      total += numbers[i];
-    }
-    return total;
+	let total = 0;
+	for (let i = 0; i < numbers.length; i++) {
+		total += numbers[i];
+	}
+	return total;
 }
 
-imperativeSum([1,2,3,4]); // 10
+imperativeSum([1, 2, 3, 4]); // 10
 ```
 
 ### Declarative (what)
@@ -36,10 +36,10 @@ Here we are concerned with what we want to do, the details (the imperative stuff
 
 ```js
 function declarativeSum(numbers) {
-  return numbers.reduce((accumulator, value) => accumulator + value);
+	return numbers.reduce((accumulator, value) => accumulator + value);
 }
 
-declarativeSum([1,2,3,4]); // 10
+declarativeSum([1, 2, 3, 4]); // 10
 ```
 
 ### Benefits

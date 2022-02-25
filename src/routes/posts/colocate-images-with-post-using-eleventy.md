@@ -1,12 +1,12 @@
 ---
-date:   2020-04-22
+date: 2020-04-22
 description: How to colocate your images alongside your post in Eleventy.
 layout: post
 slug: colocate-images-with-post-using-eleventy
 tags:
-- post
-- eleventy
-title:  Colocate images with your post using Eleventy
+  - post
+  - eleventy
+title: Colocate images with your post using Eleventy
 ---
 
 <style>
@@ -81,8 +81,8 @@ Or with markup...
 
 ```html
 <picture>
-    <source srcset="img/subway.webp" type="image/webp">
-    <img alt="Empty seats on a New York subway car" width="600" height="400" src="img/subway.jpg">
+	<source srcset="img/subway.webp" type="image/webp" />
+	<img alt="Empty seats on a New York subway car" width="600" height="400" src="img/subway.jpg" />
 </picture>
 ```
 

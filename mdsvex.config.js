@@ -10,7 +10,7 @@ const config = defineConfig({
 	remarkPlugins: [],
 	rehypePlugins: [],
 
-	layout: "./src/routes/posts/PostLayout.svelte"
+	layout: './src/routes/posts/PostLayout.svelte'
 });
 
 export default config;

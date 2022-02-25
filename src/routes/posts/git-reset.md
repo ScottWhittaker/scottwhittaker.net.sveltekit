@@ -1,12 +1,12 @@
 ---
-date:   2020-02-20
+date: 2020-02-20
 description: How to reset with git
 layout: post
 slug: git-reset
 tags:
-- post
-- git
-title:  Git Reset
+  - post
+  - git
+title: Git Reset
 ---
 
 Some notes on how to reset stuff with git. There is a whole world of resetting with git, see the [git-reset Documentation](https://git-scm.com/docs/git-reset) if you want to go deeper. The following are a few of the common day to day reset commands that I use for various scenarios.
@@ -54,8 +54,8 @@ git reset --hard HEAD~1
 ```
 
 > **--hard**
-Resets the index and working tree. Any changes to tracked files in the working tree since &lt;commit&gt; are discarded.
-<cite><a href="https://git-scm.com/docs/git-reset#Documentation/git-reset.txt---hard">git-reset Documentation</a></cite>
+> Resets the index and working tree. Any changes to tracked files in the working tree since &lt;commit&gt; are discarded.
+> <cite><a href="https://git-scm.com/docs/git-reset#Documentation/git-reset.txt---hard">git-reset Documentation</a></cite>
 
 ## Discard merge
 

@@ -8,7 +8,7 @@ tags: post
 title: HTTPie
 ---
 
-For those moments when you are asked to integrate a new API into an application and you want to take a look around before any code is written,  then [HTTPie](https://github.com/jkbrzt/httpie) is a great tool.
+For those moments when you are asked to integrate a new API into an application and you want to take a look around before any code is written, then [HTTPie](https://github.com/jkbrzt/httpie) is a great tool.
 
 > HTTPie can be used for testing, debugging, and generally interacting with HTTP servers.
 
@@ -57,4 +57,3 @@ Couple it with [jq](https://stedolan.github.io/jq/), a command line JSON process
 http swapi.co/api/planets/1/ | jq '.name'
 "Tatooine"
 ```
-

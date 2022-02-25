@@ -1,11 +1,11 @@
 ---
-date:   2018-12-18
+date: 2018-12-18
 layout: post
 slug: tailwind-flex-grid
 tags:
-    - post
-    - tailwind
-title:  Flex grid with Tailwind CSS
+  - post
+  - tailwind
+title: Flex grid with Tailwind CSS
 ---
 
 See: [Tailwind Grid Examples](https://tailwindcss.com/docs/examples/grids)

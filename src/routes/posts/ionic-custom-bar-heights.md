@@ -52,16 +52,18 @@ View content is displayed between the header and footer components. The content 
 When using `<ion-header-bar>` and `<ion-footer-bar>` directives within an `<ion-view>` element the `<ion-content>` element has 2 classes applied to it, `.has-header` and `.has-footer`
 
 ```html
-
-<ion-content class="scroll-content ionic-scroll has-header has-footer">
-
+<ion-content class="scroll-content ionic-scroll has-header has-footer"> </ion-content>
 ```
 
 These classes are used to absolutely position the top and bottom of the ion-content element.
 
 ```css
-.has-header { top: 44px; }
-.has-footer { bottom: 44px; }
+.has-header {
+	top: 44px;
+}
+.has-footer {
+	bottom: 44px;
+}
 ```
 
 ```
@@ -85,16 +87,16 @@ These classes are used to absolutely position the top and bottom of the ion-cont
 When subheaders and/or subfooters are used you need to add a class(es) to the <ion-content> element so that the correct top and bottom values of the element can be calculated.
 
 ```html
-
-<ion-content class="has-subheader has-subfooter">
-
+<ion-content class="has-subheader has-subfooter"> </ion-content>
 ```
 
 ```css
-
-.has-subheader { top: 88px; }
-.has-subfooter { bottom: 88px; }
-
+.has-subheader {
+	top: 88px;
+}
+.has-subfooter {
+	bottom: 88px;
+}
 ```
 
 ```

@@ -1,12 +1,12 @@
 ---
-date:   2020-09-01
+date: 2020-09-01
 description: How to create a branch from a tag using git
 layout: post
 slug: create-a-branch-from-a-tag-using-git
 tags:
-- post
-- git
-title:  Create a branch from a tag in git
+  - post
+  - git
+title: Create a branch from a tag in git
 ---
 
 A one liner to create a new branch from a point in time using a tag.

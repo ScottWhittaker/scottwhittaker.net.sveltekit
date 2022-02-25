@@ -89,4 +89,3 @@ Select `Project View` from the context menu.
 `option + up`
 
 Note this is the **Extend Selection** shortcut, if you hold `option` and repeat the `up` key press the selected text will extend.
-

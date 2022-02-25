@@ -5,7 +5,7 @@
 
 <div class="wrapper {isPrimary ? 'primary' : ''}">
 	{#each Array(4) as _, i}
-		<div class="{selected == i ? 'active' : ''}"></div>
+		<div class={selected == i ? 'active' : ''} />
 	{/each}
 </div>
 
@@ -21,7 +21,7 @@
 
 	.active {
 		background-color: #bbb;
-		transition: all .1s ease-in-out;
+		transition: all 0.1s ease-in-out;
 	}
 
 	.wrapper:not(.primary):hover .active {
@@ -32,6 +32,4 @@
 	.wrapper.primary .active {
 		transform: scale(1.5);
 	}
-
-
 </style>

@@ -1,10 +1,10 @@
 ---
-date:   2019-05-31
+date: 2019-05-31
 description: DNS_PROBE_FINISHED_NXDOMAIN error on a .dev domain
 layout: post
 slug: dns-probe-finished-nxdomain-error
 tags: post
-title:  DNS probe finished nxdomain error
+title: DNS probe finished nxdomain error
 ---
 
 I encountered a very frustrating issue for the first time ever when trying to load [svelte.dev](https://svelte.dev/). No matter which browser I used the site would not load and chrome reported a `DNS_PROBE_FINISHED_NXDOMAIN` error. I tried all sorts of recommended fixes such as changing DNS servers in network settings and flushing the DNS cache but none of them worked (on a mac).

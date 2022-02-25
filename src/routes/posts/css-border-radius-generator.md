@@ -4,8 +4,8 @@ description: Just another CSS border radius generator. A nice excuse to write a 
 layout: post
 slug: css-border-radius-generator
 tags:
-- post
-- css
+  - post
+  - css
 title: CSS Border Radius Generator
 ---
 

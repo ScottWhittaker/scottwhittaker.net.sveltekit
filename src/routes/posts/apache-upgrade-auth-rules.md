@@ -34,4 +34,3 @@ Alias /somedir "/Users/username/somedir/"
         Require all granted
 </Directory>
 ```
-

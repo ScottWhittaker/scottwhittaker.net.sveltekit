@@ -4,9 +4,9 @@ description: Discovering Montague Projects art, design and illustration
 layout: post
 slug: discovering-montague-projects
 tags:
-- post
-- css
-- design
+  - post
+  - css
+  - design
 title: Discovering Montague Projects
 ---
 
@@ -21,4 +21,3 @@ I found these amazing [designs by Julian Montague](http://www.montagueprojects.c
     <Landrover/>
     <VolkswagonVanagonT3/>
 </div>
-

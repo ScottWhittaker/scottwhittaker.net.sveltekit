@@ -18,11 +18,10 @@ npm install @astrojs/renderer-svelte
 
 ## Add the the Svelte renderer to config
 
-Add the renderer in `astro.config.mjs`. 
+Add the renderer in `astro.config.mjs`.
 
 ```javascript
-export default ({
-  renderers: ['@astrojs/renderer-preact', '@astrojs/renderer-svelte'],
-});
+export default {
+	renderers: ['@astrojs/renderer-preact', '@astrojs/renderer-svelte']
+};
 ```
-

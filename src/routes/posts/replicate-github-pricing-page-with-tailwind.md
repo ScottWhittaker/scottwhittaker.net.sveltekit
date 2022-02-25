@@ -4,9 +4,9 @@ description: Replicating the Github pricing page with Tailwind CSS
 layout: post
 slug: replicate-github-pricing-page-with-tailwind
 tags:
-- post
-- css
-- tailwind
+  - post
+  - css
+  - tailwind
 title: Github pricing page with Tailwind CSS
 ---
 

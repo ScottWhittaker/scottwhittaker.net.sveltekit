@@ -1,5 +1,5 @@
 <script>
-    import throttle from 'lodash.throttle';
+	import throttle from 'lodash.throttle';
 	import debounce from 'lodash.debounce';
 	import Row from './Row.svelte';
 	import { getNextIndex, getPreviousIndex } from './utils';
@@ -45,7 +45,6 @@
 		throttleKeydown(e);
 		debounceKeydown(e);
 	};
-
 </script>
 
 <svelte:window on:keydown={handleKeydown} />
@@ -56,7 +55,7 @@
 <Row {items} currentIndex={currentIndexDebounced} />
 
 <style>
-    h3 {
-        margin: 0;
-    }
+	h3 {
+		margin: 0;
+	}
 </style>

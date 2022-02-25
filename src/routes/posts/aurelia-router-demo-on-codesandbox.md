@@ -1,13 +1,13 @@
 ---
-date:   2018-12-28
+date: 2018-12-28
 description: An Aurelia Router demo on CodeSandbox with nested routes
 layout: post
 slug: aurelia-router-demo-on-codesandbox
 tags:
-    - post
-    - aurelia
-    - codesandbox
-title:  Aurelia Router Demo on CodeSandbox
+  - post
+  - aurelia
+  - codesandbox
+title: Aurelia Router Demo on CodeSandbox
 ---
 
 Revisiting [an older Aurelia Router Demo](/aurelia/2016/06/12/aurelia-router-demo.html) this time with [CodeSandbox](https://codesandbox.io). All I did was copy over the code from my old demo in [GistRun](https://gist.run/?id=92825f79a9156cd55194b2ba7c8c42df) into CodeSandbox and it just worked, changed a few styles and done!

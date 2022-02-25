@@ -4,8 +4,8 @@ description: Using CSS Grid to display the Geologic Timescale
 layout: post
 slug: geologic-timescale-with-css-grid
 tags:
-- post
-- css-grid
+  - post
+  - css-grid
 title: Geologic Timescale with CSS Grid
 ---
 

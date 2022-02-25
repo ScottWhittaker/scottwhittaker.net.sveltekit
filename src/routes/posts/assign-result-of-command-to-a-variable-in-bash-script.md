@@ -4,9 +4,9 @@ description: How to assign the result of a command to a variable in a bash scrip
 layout: post
 slug: assign-result-of-command-to-a-variable-in-bash-script
 tags:
-    - post
-    - bash
-title:  Assign the result of a command to a variable in a bash script
+  - post
+  - bash
+title: Assign the result of a command to a variable in a bash script
 ---
 
 I do not write bash scripts anywhere near often enough to recall the basics so I inevitably lose time searching for answers. In this case I failed to understand how to assign the result of a command to a variable.

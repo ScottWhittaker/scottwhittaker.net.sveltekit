@@ -1,12 +1,12 @@
 ---
-date:   2018-11-23
+date: 2018-11-23
 layout: post
 slug: git-tags
 tags:
-    - post
-    - git
-    - tags
-title:  git - tags
+  - post
+  - git
+  - tags
+title: git - tags
 ---
 
 ## List tags
@@ -27,7 +27,6 @@ In order to remove all local and remote tags you can do the following as referen
 
 - [Remove all git tags](https://gist.github.com/okunishinishi/9424779#gistcomment-2058357)
 - [How to remove all git origin and local tags?](https://stackoverflow.com/questions/44702757/how-to-remove-all-git-origin-and-local-tags)
-
 
 ```bash
 # Delete local tags

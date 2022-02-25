@@ -1,10 +1,10 @@
 ---
-date:   2019-07-03
+date: 2019-07-03
 description: A Sapper Tailwind boilerplate
 layout: post
 slug: sapper-tailwind
 tags: post
-title:  Sapper Tailwind
+title: Sapper Tailwind
 ---
 
 I was watching the [Building Workation with Tailwind CSS](https://www.youtube.com/watch?v=0aTRN9CSCY0) videos by Adam Wathan where he builds a sample responsive application with [Tailwind CSS](https://tailwindcss.com/) within a [Vue](https://vuejs.org/) framework. There is only a small amount of Vue development sprinkled in but it provides an insight around where the framework begins to fit in with the development cycle as he fleshes out the application.
@@ -31,4 +31,3 @@ Since the setup was straightforward I guess I have to try building out the Worka
 ## Other stuff
 
 A quick aside, whilst searching around for information I found this introduction to [Setting up Tailwind and PostCSS](https://vimeo.com/345586861/362c6e7402) by the Tailwind author Adam Wathan.
-

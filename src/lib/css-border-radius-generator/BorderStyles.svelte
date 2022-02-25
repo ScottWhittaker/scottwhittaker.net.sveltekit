@@ -1,23 +1,21 @@
 <script>
-    export let styles;
+	export let styles;
 
 	let input;
 
 	const copy = () => {
 		input.select();
 		document.execCommand('copy');
-	}
+	};
 </script>
 
 <div>
 	<label for="border-radius-styles" class="sr-only">Border Radius Styles</label>
-	<input id="border-radius-styles" bind:this={input} value={`border-radius: ${styles};`}/>
+	<input id="border-radius-styles" bind:this={input} value={`border-radius: ${styles};`} />
 	<button on:click={copy}>Copy</button>
 </div>
 
-
 <style>
-
 	div {
 		display: flex;
 		flex-wrap: wrap;

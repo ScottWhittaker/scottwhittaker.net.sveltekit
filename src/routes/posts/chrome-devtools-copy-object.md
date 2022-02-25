@@ -20,8 +20,8 @@ Assume we have a JavaScript object as follows and we log it to the console durin
 
 ```js
 const data = {
-    firstName: 'Peter',
-    lastName: 'Beardsley'
+	firstName: 'Peter',
+	lastName: 'Beardsley'
 };
 
 console.log('data', data);
@@ -55,8 +55,8 @@ Paste the value somewhere...
 
 ```json
 {
-  "firstName": "Peter",
-  "lastName": "Beardsley"
+	"firstName": "Peter",
+	"lastName": "Beardsley"
 }
 ```
 

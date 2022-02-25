@@ -1,12 +1,12 @@
 ---
-date:   2020-02-21
+date: 2020-02-21
 description: How to amend a commit with git
 layout: post
 slug: git-amend
 tags:
-- post
-- git
-title:  Git Amend
+  - post
+  - git
+title: Git Amend
 ---
 
 Some `amend` snippets that are worth remembering. See [the documentation](https://git-scm.com/docs/git-commit) for all the commit joy.
@@ -32,5 +32,5 @@ git commit --amend --no-edit
 ```
 
 > **--no-edit**
-Use the selected commit message without launching an editor. For example, git commit --amend --no-edit amends a commit without changing its commit message.
-<cite><a href="https://git-scm.com/docs/git-commit#Documentation/git-commit.txt---no-edit">git-commit Documentation</a></cite>
+> Use the selected commit message without launching an editor. For example, git commit --amend --no-edit amends a commit without changing its commit message.
+> <cite><a href="https://git-scm.com/docs/git-commit#Documentation/git-commit.txt---no-edit">git-commit Documentation</a></cite>

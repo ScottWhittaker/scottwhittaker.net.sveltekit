@@ -4,7 +4,7 @@ layout: post
 permalink: aurelia/2016/06/12/aurelia-router-demo.html
 slug: aurelia-router-demo
 tags: post
-title:  Aurelia Router Demo
+title: Aurelia Router Demo
 ---
 
 <p class="note">
@@ -25,21 +25,31 @@ By convention, Aurelia looks for a method called `configureRouter` on a view-mod
 For example, the view-model for `app.js`, the top level navigation for the application, is a follows...
 
 ```js
-
 // app.js
 
 export class App {
-  configureRouter(config, router) {
-    config.title = 'Aurelia Router Demo';
-    config.map([
-      {route: ['', 'home'], name: 'home', moduleId: 'home/home', nav: true, title: 'Home'},
-      {route: 'profile', name: 'profile', moduleId: 'profile/profile', nav: true, title: 'Profile'},
-      {route: 'settings', name: 'settings', moduleId: 'settings/settings', nav: true, title: 'Settings'}
-    ]);
-    this.router = router;
-  }
+	configureRouter(config, router) {
+		config.title = 'Aurelia Router Demo';
+		config.map([
+			{ route: ['', 'home'], name: 'home', moduleId: 'home/home', nav: true, title: 'Home' },
+			{
+				route: 'profile',
+				name: 'profile',
+				moduleId: 'profile/profile',
+				nav: true,
+				title: 'Profile'
+			},
+			{
+				route: 'settings',
+				name: 'settings',
+				moduleId: 'settings/settings',
+				nav: true,
+				title: 'Settings'
+			}
+		]);
+		this.router = router;
+	}
 }
-
 ```
 
 ### Title
@@ -93,7 +103,7 @@ If you require more than one alias you can do that too.
 
 ```js
 {route: ['', 'home', 'welcome'], name: 'home', moduleId: 'home/home', nav: true, title: 'Home'}
-````
+```
 
 ```
 http://localhost:9000/#
@@ -117,14 +127,14 @@ Routes are defined in the view-model `app.js`. In the corresponding view, `app.h
 <!-- app.html -->
 
 <template>
-  <require from="components/navigation.html"></require>
-  <h1>Aurelia Router Demo</h1>
-  <navigation router.bind="router" class="primary-navigation"></navigation>
-  <div class="page-host">
-    <router-view>
-        <!-- Top level views are rendered here -->
-    </router-view>
-  </div>
+	<require from="components/navigation.html"></require>
+	<h1>Aurelia Router Demo</h1>
+	<navigation router.bind="router" class="primary-navigation"></navigation>
+	<div class="page-host">
+		<router-view>
+			<!-- Top level views are rendered here -->
+		</router-view>
+	</div>
 </template>
 ```
 
@@ -135,41 +145,36 @@ In the `navigation` template, note that a `bindable` attribute is specified on t
 The `isActive` property is used to set a class name on the item that corresponds to the currently active route.
 
 ```html
-
 <!-- components/navigation.html -->
 
 <template bindable="router">
-  <nav>
-    <ul>
-      <li repeat.for="row of router.navigation" class="${row.isActive ? 'active' : ''}">
-        <a href.bind="row.href">${row.title}</a>
-      </li>
-    </ul>
-  </nav>
+	<nav>
+		<ul>
+			<li repeat.for="row of router.navigation" class="${row.isActive ? 'active' : ''}">
+				<a href.bind="row.href">${row.title}</a>
+			</li>
+		</ul>
+	</nav>
 </template>
-
 ```
 
 This generates the following markup...
 
 ```html
-
 <ul>
-  <li class="au-target active" au-target-id="1">
-    <a href.bind="row.href" class="au-target" au-target-id="2" href="#/">Home</a>
-  </li>
-  <li class="au-target" au-target-id="1">
-    <a href.bind="row.href" class="au-target" au-target-id="2" href="#/profile">Profile</a>
-  </li>
-  <li class="au-target" au-target-id="1">
-    <a href.bind="row.href" class="au-target" au-target-id="2" href="#/settings">Settings</a>
-  </li>
+	<li class="au-target active" au-target-id="1">
+		<a href.bind="row.href" class="au-target" au-target-id="2" href="#/">Home</a>
+	</li>
+	<li class="au-target" au-target-id="1">
+		<a href.bind="row.href" class="au-target" au-target-id="2" href="#/profile">Profile</a>
+	</li>
+	<li class="au-target" au-target-id="1">
+		<a href.bind="row.href" class="au-target" au-target-id="2" href="#/settings">Settings</a>
+	</li>
 </ul>
-
 ```
 
 The text content of each `<a>` element is the value of the `title` property defined in the route configuration and the `href` attribute is populated with the url fragment as defined by the `route` property. Note that the first `<li>` element has a class of `active`, this denotes the active route allowing it to be styled accordingly.
-
 
 ## Child Routers
 
@@ -183,46 +188,70 @@ When _**Profile**_ is selected in the menu, we route to `'profile/profile'` as d
 
 Note that the only difference from the top level route definition is how the default route is defined. We still use the empty string to denote the default route but a second property, `redirect`, determines which route to use.
 
-
 ```js
-
 // profile/profile.js
 
 export class Profile {
-  configureRouter(config, router) {
-    config.map([
-      { route: '', redirect: 'account' },
-      { route: 'account', name: 'account', moduleId: 'profile/account/account', nav: true, title: 'Account' },
-      { route: 'emails', name: 'emails', moduleId: 'profile/emails/emails', nav: true, title: 'Emails' },
-      { route: 'notifications', name: 'notifications', moduleId: 'profile/notifications/notifications', nav: true, title: 'Notifications' }
-    ]);
-    this.router = router;
-  }
+	configureRouter(config, router) {
+		config.map([
+			{ route: '', redirect: 'account' },
+			{
+				route: 'account',
+				name: 'account',
+				moduleId: 'profile/account/account',
+				nav: true,
+				title: 'Account'
+			},
+			{
+				route: 'emails',
+				name: 'emails',
+				moduleId: 'profile/emails/emails',
+				nav: true,
+				title: 'Emails'
+			},
+			{
+				route: 'notifications',
+				name: 'notifications',
+				moduleId: 'profile/notifications/notifications',
+				nav: true,
+				title: 'Notifications'
+			}
+		]);
+		this.router = router;
+	}
 }
-
 ```
 
 Similarly, when _**Account**_ is selected from the second level navigation we route to `'profile/account/account'`. The view-model for `account.js` also defines child routes creating a third level of navigation.
 
 ```js
-
 // profile/account/account.js
 
 export class Account {
-  configureRouter(config, router) {
-    config.map([
-      { route: '', redirect: 'username' },
-      { route: 'username', name: 'username', moduleId: 'profile/account/username/username', nav: true, title: 'Username' },
-      { route: 'password', name: 'password', moduleId: 'profile/account/password/password', nav: true, title: 'Password' }
-    ]);
-    this.router = router;
-  }
+	configureRouter(config, router) {
+		config.map([
+			{ route: '', redirect: 'username' },
+			{
+				route: 'username',
+				name: 'username',
+				moduleId: 'profile/account/username/username',
+				nav: true,
+				title: 'Username'
+			},
+			{
+				route: 'password',
+				name: 'password',
+				moduleId: 'profile/account/password/password',
+				nav: true,
+				title: 'Password'
+			}
+		]);
+		this.router = router;
+	}
 }
-
 ```
 
 Both `profile.js` and `account.js` have their corresponding views which dynamically create the navigation menu.
-
 
 ## Thoughts
 

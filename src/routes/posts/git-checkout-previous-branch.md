@@ -4,7 +4,7 @@ layout: post
 permalink: git/2016/10/10/git-checkout-previous-branch.html
 slug: git-checkout-previous-branch
 tags: post
-title:  git - checkout previous branch
+title: git - checkout previous branch
 ---
 
 Just discovered this little trick to checkout the previous branch you were working on. It allows you to toggle quickly between your last 2 branches...

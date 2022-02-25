@@ -4,7 +4,7 @@ layout: post
 permalink: flexbox/2017/02/05/flexbox-and-text-truncation.html
 slug: flexbox-and-text-truncation
 tags: post
-title:  Flexbox and text truncation
+title: Flexbox and text truncation
 ---
 
 Text truncation issue with flexbox? As always [css-tricks](https://css-tricks.com/) to the rescue with this [flexbox truncated text article](https://css-tricks.com/flexbox-truncated-text/). In a nutshell, when a flex item contains child elements with text that should be truncated, layout can break.

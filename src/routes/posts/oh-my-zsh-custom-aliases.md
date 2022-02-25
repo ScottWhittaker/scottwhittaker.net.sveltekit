@@ -4,12 +4,12 @@ description: Describes the recommended approach for setting custom aliases with 
 layout: post
 slug: oh-my-zsh-custom-aliases
 tags:
-- post
-- ohmyzsh
+  - post
+  - ohmyzsh
 title: Oh My Zsh Custom Aliases
 ---
 
-I recently installed [Oh My Zsh](https://ohmyz.sh/) on a new machine which is not something you do often.  I actually read the `~/.zshrc` file this time before I added an alias and found the following which recommends you add your custom aliases in the `ZSH_CUSTOM` folder.
+I recently installed [Oh My Zsh](https://ohmyz.sh/) on a new machine which is not something you do often. I actually read the `~/.zshrc` file this time before I added an alias and found the following which recommends you add your custom aliases in the `ZSH_CUSTOM` folder.
 
 ```shell
 # Set personal aliases, overriding those provided by oh-my-zsh libs,

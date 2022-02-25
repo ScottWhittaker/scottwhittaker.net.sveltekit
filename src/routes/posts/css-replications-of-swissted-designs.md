@@ -4,9 +4,9 @@ description: Replicating some designs from https://www.swissted.com/ with html a
 layout: post
 slug: css-replications-of-swissted-designs
 tags:
-- post
-- css
-- swissted
+  - post
+  - css
+  - swissted
 title: Swissted replications using HTML and CSS
 ---
 

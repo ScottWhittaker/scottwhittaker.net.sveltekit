@@ -44,5 +44,3 @@ Note that you do not have to type the full command `http`, you can shorten that 
 ## Conclusion
 
 How did I not accidentally discover that feature? I will be saving myself a few seconds per day now.
-
-

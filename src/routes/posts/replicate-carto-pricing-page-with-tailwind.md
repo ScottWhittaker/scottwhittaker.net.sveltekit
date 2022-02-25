@@ -4,9 +4,9 @@ description: Partial reproduction of Carto pricing page using Tailwind CSS
 layout: post
 slug: replicate-carto-pricing-page-with-tailwind
 tags:
-- post
-- css
-- tailwind
+  - post
+  - css
+  - tailwind
 title: Carto pricing page with Tailwind CSS
 ---
 
@@ -17,4 +17,3 @@ You can see the <a href="/carto-pricing-page-using-tailwind-css/index.html" targ
 <div style="display: flex; justify-content: center; padding-top: 2rem;">
   <img alt="Screenshot of Carto pricing page demo on mobile device" width="400" height="1400" src="/posts/carto-pricing-page.png">
 </div>
-
