@@ -21,9 +21,9 @@
     a:hover {
         text-decoration: none;
         color: inherit;
-        border-bottom-color: var(--grey-dark);
+        border-bottom-color: var(--grey-600);
     }
     .selected {
-        border-bottom-color: var(--blue-600);
+        border-bottom-color: var(--sky-600);
     }
 </style>

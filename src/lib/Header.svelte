@@ -23,7 +23,7 @@
         align-items: baseline;
         padding-top: 2rem;
         padding-bottom: 2rem;
-        border-bottom: 1px solid var(--grey-lighter);
+        border-bottom: 1px solid var(--grey-200);
     }
     @media (min-width: 640px) {
         .wrapper {

@@ -1,26 +1,26 @@
 :root {
-    --black: #22292f;
-    --grey-darkest: #3d4852;
-    --grey-darker: #606f7b;
-    --grey-dark: #8795a1;
-    --grey: #b8c2cc;
-    --grey-light: #dae1e7;
-    --grey-lighter: #f1f5f8;
-    --grey-lightest: #f8fafc;
+
+    --grey-50: #f9fafb;
+    --grey-100: #f3f4f6;
+    --grey-200: #e5e7eb;
+    --grey-300: #d1d5db;
+    --grey-400: #9ca3af;
+    --grey-500: #6b7280;
+    --grey-600: #4b5563;
+    --grey-700: #374151;
+    --grey-800: #1f2937;
+    --grey-900: #111827;
+
     --white: #ffffff;
 
-    --yellow-darker: #684f1d;
-    --yellow-light: #fff382;
-    --yellow-lightest: #fcfbeb;
+    --sky-100: #e0f2fe;
+    --sky-200: #bae6fd;
+    --sky-600: #0284c7;
+    --sky-700: #0369a1;
 
-    --blue-100: #ebf8ff;
-    --blue-200: #bee3f8;
-    --blue-600: #3182ce;
-    --blue-700: #2b6cb0;
-
-    --red-100: #fff5f5;
-    --red-200: #fed7d7;
-    --red-700: #c53030;
+    --red-100: #fee2e2;
+    --red-200: #fecaca;
+    --red-700: #b91c1c;
 }
 
 body {
@@ -28,11 +28,7 @@ body {
     Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     -webkit-font-smoothing: antialiased;
     font-size: 1.125rem;
-    color: var(--grey-darkest);
-}
-
-header, main, footer {
-    padding: 0 1rem;
+    color: var(--grey-700);
 }
 
 .g-full-bleed {
@@ -44,13 +40,10 @@ header, main, footer {
     max-width: 50rem;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 1rem;
 }
 
 a {
-    color: var(--grey-darkest);
-}
-
-a:hover {
-    color: var(--blue-600);
+    color: var(--grey-700);
 }
 

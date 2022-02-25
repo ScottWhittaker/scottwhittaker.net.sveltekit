@@ -11,29 +11,18 @@
 </article>
 
 <style>
-    article {
-        padding: 1rem;
-        border-bottom: 1px solid var(--grey-light);
-    }
-
     article h3 {
-        margin: 0;
-        color: inherit;
+        margin: 0 0 1rem 0;
+        line-height: 1.8rem;
     }
-
 
     a {
+        color: var(--grey-400);
         text-decoration: none;
-        color: inherit;
-
     }
+
     a:hover {
+        color: var(--white);
         text-decoration: underline;
-    }
-
-    @media (min-width: 640px) {
-        article {
-            border: 1px solid var(--grey-light);
-        }
     }
 </style>

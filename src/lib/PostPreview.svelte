@@ -14,7 +14,7 @@
     }
     a {
         text-decoration: none;
-        color: var(--grey-darkest);
+        color: var(--grey-700);
     }
     a:hover {
         text-decoration: underline;
