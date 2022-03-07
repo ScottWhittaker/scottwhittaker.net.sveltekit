@@ -5,7 +5,6 @@
 <nav>
 	<a href="/" class:selected={$page.url.pathname === '/'}>Home</a>
 	<a href="/posts" class:selected={$page.url.pathname.startsWith('/posts')}>Posts</a>
-	<a href="/about" class:selected={$page.url.pathname === '/about'}>About</a>
 </nav>
 
 <style>
