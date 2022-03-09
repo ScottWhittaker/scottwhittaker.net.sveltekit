@@ -22,6 +22,7 @@
 	<meta name="description" content="A list of posts" />
 </svelte:head>
 
+<h2>Posts</h2>
 {#each posts as post}
 	<PostPreview {post} />
 {/each}

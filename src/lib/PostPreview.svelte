@@ -1,22 +1,31 @@
 <script>
-	import PostDateTime from '$lib/PostDateTime.svelte';
+    import PostDateTime from '$lib/PostDateTime.svelte';
 
-	export let post = {};
-	const { date, title, slug } = post;
+    export let post = {};
+    const { date, title, slug } = post;
 </script>
 
-<a href={`/posts/${slug}`}><h2 class="title">{title}</h2></a>
-<PostDateTime {date} />
+<a href={`/posts/${slug}`}><h3 class="title">{title}</h3></a>
+<div>
+    <PostDateTime {date} />
+</div>
 
 <style>
-	h2 {
-		margin-top: 2rem;
-	}
-	a {
-		text-decoration: none;
-		color: var(--grey-700);
-	}
-	a:hover {
-		text-decoration: underline;
-	}
+    a {
+        color: var(--grey-500);
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    div {
+        display: inline-block;
+        padding: 0 .5rem;
+        color: var(--grey-700);
+        font-size: smaller;
+        border: 1px solid var(--grey-200);
+        border-radius: 4px;
+    }
 </style>
