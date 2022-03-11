@@ -7,7 +7,7 @@ tags: post
 title: Wrap an mdsvex document to dynamically add page titles
 ---
 
-When putting this starter template together I wanted to dynamically update the document page title for each post so that the title would be reflected in the browser tab.
+When putting [this starter template](https://github.com/ScottWhittaker/sveltekit-starter-blog) together I wanted to dynamically update the document page title for each post so that the title would be reflected in the browser tab.
 
 I already knew about the special element [`<svelte:head>`](https://svelte.dev/tutorial/svelte-head) which can be used to update any element in the `<head>` of the document but I did not want to add this to every `.md` file in the `posts` directory.
 
