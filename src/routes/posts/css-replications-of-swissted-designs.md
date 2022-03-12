@@ -1,6 +1,6 @@
 ---
 date: 2020-04-02
-description: Replicating some designs from https://www.swissted.com/ with html and css
+description: Replicating some designs from swissted.com with html and css
 layout: post
 slug: css-replications-of-swissted-designs
 tags:
