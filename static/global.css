@@ -45,3 +45,7 @@ body {
 a {
 	color: var(--grey-700);
 }
+
+main a {
+	font-weight: bold;
+}
