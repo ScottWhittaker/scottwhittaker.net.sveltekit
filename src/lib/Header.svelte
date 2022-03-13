@@ -1,12 +1,15 @@
 <script>
 	import Nav from '$lib/Nav.svelte';
+	import Logo from '$lib/Logo.svelte';
 </script>
 
 <header>
 	<div class="g-wrapper">
 		<div class="wrapper">
 			<div>
-				<a href="/"><img src="/logo.svg" alt="site logo" width="64"></a>
+				<a href="/">
+					<Logo/>
+				</a>
 			</div>
 			<h1 class="sr-only">Scott Whittaker</h1>
 			<Nav />
@@ -23,11 +26,5 @@
 	}
 	.wrapper > div {
 		flex: 1;
-	}
-
-	img {
-		width: 64px;
-		height: 64px;
-		display: inline-block;
 	}
 </style>

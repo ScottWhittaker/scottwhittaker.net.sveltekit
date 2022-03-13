@@ -23,6 +23,6 @@
 		border-bottom-color: var(--grey-600);
 	}
 	.selected {
-		border-bottom-color: var(--sky-600);
+		border-bottom-color: var(--red-700);
 	}
 </style>
