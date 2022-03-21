@@ -6,7 +6,9 @@
         height: 64px;
     }
 
-    svg:hover {
-        fill: var(--red-700);
+    @media (hover: hover) {
+        svg:hover {
+            fill: var(--red-700);
+        }
     }
 </style>
