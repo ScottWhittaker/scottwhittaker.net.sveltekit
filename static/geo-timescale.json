@@ -1,0 +1,1040 @@
+{
+    "timescale": [
+        {
+            "name": "Phanerozoic",
+            "type": "eon",
+            "color": "154/217/221",
+            "children": [
+                {
+                    "name": "Cenozoic",
+                    "type": "era",
+                    "color": "242/249/29",
+                    "children": [
+                        {
+                            "name": "Quaternary",
+                            "type": "period",
+                            "color": "249/249/127",
+                            "children": [
+                                {
+                                    "name": "Holocene",
+                                    "type": "epoch",
+                                    "color": "254/242/236"
+                                },
+                                {
+                                    "name": "Pleistocene",
+                                    "type": "epoch",
+                                    "color": "255/242/174",
+                                    "children": [
+                                        {
+                                            "name": "Upper Pleistocene",
+                                            "type": "age",
+                                            "color": "255/242/211"
+                                        },
+                                        {
+                                            "name": "Ionian",
+                                            "type": "age",
+                                            "color": "255/242/199"
+                                        },
+                                        {
+                                            "name": "Calabrian",
+                                            "type": "age",
+                                            "color": "255/242/186"
+                                        },
+                                        {
+                                            "name": "Gelasian",
+                                            "type": "age",
+                                            "color": "255/237/179"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Neogene",
+                            "type": "period",
+                            "color": "255/230/25",
+                            "children": [
+                                {
+                                    "name": "Pliocene",
+                                    "type": "epoch",
+                                    "color": "255/255/153",
+                                    "children": [
+                                        {
+                                            "name": "Piacenzian",
+                                            "type": "age",
+                                            "color": "255/255/191"
+                                        },
+                                        {
+                                            "name": "Zanclean",
+                                            "type": "age",
+                                            "color": "255/255/179"
+                                        },
+                                        {
+                                            "name": "Tortonian",
+                                            "type": "age",
+                                            "color": "255/255/102"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Miocene",
+                                    "type": "epoch",
+                                    "color": "255/255/0",
+                                    "children": [
+                                        {
+                                            "name": "Messinian",
+                                            "type": "age",
+                                            "color": "255/255/115"
+                                        },
+                                        {
+                                            "name": "Tortonian",
+                                            "type": "age",
+                                            "color": "255/255/102"
+                                        },
+                                        {
+                                            "name": "Serravallian",
+                                            "type": "age",
+                                            "color": "255/255/89"
+                                        },
+                                        {
+                                            "name": "Langhian",
+                                            "type": "age",
+                                            "color": "255/255/77"
+                                        },
+                                        {
+                                            "name": "Burdigalian",
+                                            "type": "age",
+                                            "color": "255/255/65"
+                                        },
+                                        {
+                                            "name": "Aquitanian",
+                                            "type": "age",
+                                            "color": "255/255/51s"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Paleogene",
+                            "type": "period",
+                            "color": "253/154/82",
+                            "children": [
+                                {
+                                    "name": "Oligocene",
+                                    "type": "epoch",
+                                    "color": "253/192/122",
+                                    "children": [
+                                        {
+                                            "name": "Chattian",
+                                            "type": "age",
+                                            "color": "254/230/170"
+                                        },
+                                        {
+                                            "name": "Rupelian",
+                                            "type": "age",
+                                            "color": "254/217/154"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Eocene",
+                                    "type": "epoch",
+                                    "color": "253/180/108",
+                                    "children": [
+                                        {
+                                            "name": "Priabonian",
+                                            "type": "age",
+                                            "color": "253/205/161"
+                                        },
+                                        {
+                                            "name": "Bartonian",
+                                            "type": "age",
+                                            "color": "253/192/145"
+                                        },
+                                        {
+                                            "name": "Lutetian",
+                                            "type": "age",
+                                            "color": "252/180/130"
+                                        },
+                                        {
+                                            "name": "Ypresian",
+                                            "type": "age",
+                                            "color": "252/167/115"
+                                        }
+                                    ]
+
+                                },
+                                {
+                                    "name": "Paleocene",
+                                    "type": "epoch",
+                                    "color": "253/167/95",
+                                    "children": [
+                                        {
+                                            "name": "Thanetian",
+                                            "type": "age",
+                                            "color": "253/191/111"
+                                        },
+                                        {
+                                            "name": "Selandian",
+                                            "type": "age",
+                                            "color": "254/191/101"
+                                        },
+                                        {
+                                            "name": "Danian",
+                                            "type": "age",
+                                            "color": "253/180/98"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Mesozoic",
+                    "type": "era",
+                    "color": "103/197/202",
+                    "children": [
+                        {
+                            "name": "Cretaceous",
+                            "type": "period",
+                            "color": "127/198/78",
+                            "children": [
+                                {
+                                    "name": "Upper Cretaceous",
+                                    "type": "epoch",
+                                    "color": "166/216/74",
+                                    "children": [
+                                        {
+                                            "name": "Maastrichtian",
+                                            "type": "age",
+                                            "color": "242/250/140"
+                                        },
+                                        {
+                                            "name": "Campanian",
+                                            "type": "age",
+                                            "color": "230/244/127"
+                                        },
+
+                                        {
+                                            "name": "Santonian",
+                                            "type": "age",
+                                            "color": "217/239/116"
+                                        },
+                                        {
+                                            "name": "Coniacian",
+                                            "type": "age",
+                                            "color": "204/233/104"
+                                        },
+                                        {
+                                            "name": "Turonian",
+                                            "type": "age",
+                                            "color": "191/227/93"
+                                        },
+                                        {
+                                            "name": "Cenomanian",
+                                            "type": "age",
+                                            "color": "179/222/83"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Lower Cretaceous",
+                                    "type": "epoch",
+                                    "color": "140/205/87",
+                                    "children": [
+                                        {
+                                            "name": "Albian",
+                                            "type": "age",
+                                            "color": "204/234/151"
+                                        },
+                                        {
+                                            "name": "Aptian",
+                                            "type": "age",
+                                            "color": "191/228/138"
+                                        },
+                                        {
+                                            "name": "Barremian",
+                                            "type": "age",
+                                            "color": "179/223/127"
+                                        },
+                                        {
+                                            "name": "Hauterivian",
+                                            "type": "age",
+                                            "color": "166/217/117"
+                                        },
+                                        {
+                                            "name": "Valanginian",
+                                            "type": "age",
+                                            "color": "153/211/106"
+                                        },
+                                        {
+                                            "name": "Berriasian",
+                                            "type": "age",
+                                            "color": "140/205/96"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Jurassic",
+                            "type": "period",
+                            "color": "52/178/201",
+                            "children": [
+                                {
+                                    "name": "Upper Jurassic",
+                                    "type": "epoch",
+                                    "color": "179/227/238",
+                                    "children": [
+                                        {
+                                            "name": "Tithonian",
+                                            "type": "age",
+                                            "color": "217/241/247"
+                                        },
+                                        {
+                                            "name": "Kimmeridgian",
+                                            "type": "age",
+                                            "color": "204/236/244"
+                                        },
+                                        {
+                                            "name": "Oxfordian",
+                                            "type": "age",
+                                            "color": "191/231/241"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Middle Jurassic",
+                                    "type": "epoch",
+                                    "color": "128/207/216",
+                                    "children": [
+                                        {
+                                            "name": "Callovian",
+                                            "type": "age",
+                                            "color": "191/231/229"
+                                        },
+                                        {
+                                            "name": "Bathonian",
+                                            "type": "age",
+                                            "color": "179/226/227"
+                                        },
+                                        {
+                                            "name": "Bajocian",
+                                            "type": "age",
+                                            "color": "166/221/224"
+                                        },
+                                        {
+                                            "name": "Aalenian",
+                                            "type": "age",
+                                            "color": "154/217/221"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Lower Jurassic",
+                                    "type": "epoch",
+                                    "color": "66/174/208",
+                                    "children": [
+                                        {
+                                            "name": "Toarcian",
+                                            "type": "age",
+                                            "color": "153/206/227"
+                                        },
+                                        {
+                                            "name": "Pliensbachian",
+                                            "type": "age",
+                                            "color": "128/197/221"
+                                        },
+                                        {
+                                            "name": "Sinemurian",
+                                            "type": "age",
+                                            "color": "103/188/216"
+                                        },
+                                        {
+                                            "name": "Hettangian",
+                                            "type": "age",
+                                            "color": "78/179/211"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Triassic",
+                            "type": "period",
+                            "color": "129/43/146",
+                            "children": [
+                                {
+                                    "name": "Upper Triassic",
+                                    "type": "epoch",
+                                    "color": "189/140/195",
+                                    "children": [
+                                        {
+                                            "name": "Rhaetian",
+                                            "type": "age",
+                                            "color": "227/185/219"
+                                        },
+                                        {
+                                            "name": "Norian",
+                                            "type": "age",
+                                            "color": "214/170/211"
+                                        },
+                                        {
+                                            "name": "Carnian",
+                                            "type": "age",
+                                            "color": "201/155/203"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Middle Triassic",
+                                    "type": "epoch",
+                                    "color": "177/104/177",
+                                    "children": [
+                                        {
+                                            "name": "Ladinian",
+                                            "type": "age",
+                                            "color": "201/131/191"
+                                        },
+                                        {
+                                            "name": "Anisian",
+                                            "type": "age",
+                                            "color": "188/117/183"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Lower Triassic",
+                                    "type": "epoch",
+                                    "color": "152/57/153",
+                                    "children": [
+                                        {
+                                            "name": "Olenekian",
+                                            "type": "age",
+                                            "color": "176/81/165"
+                                        },
+                                        {
+                                            "name": "Induan",
+                                            "type": "age",
+                                            "color": "164/70/159"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Paleozoic",
+                    "type": "era",
+                    "color": "153/192/141",
+                    "children": [
+                        {
+                            "name": "Permian",
+                            "type": "period",
+                            "color": "240/64/40",
+                            "children": [
+                                {
+                                    "name": "Lopingian",
+                                    "type": "epoch",
+                                    "color": "251/167/148",
+                                    "children": [
+                                        {
+                                            "name": "Changhsingian",
+                                            "type": "age",
+                                            "color": "252/192/178"
+                                        },
+                                        {
+                                            "name": "Wuchiapingian",
+                                            "type": "age",
+                                            "color": "252/180/162"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Guadalupian",
+                                    "type": "epoch",
+                                    "color": "251/116/92",
+                                    "children": [
+                                        {
+                                            "name": "Capitanian",
+                                            "type": "age",
+                                            "color": "251/154/133"
+                                        },
+                                        {
+                                            "name": "Wordian",
+                                            "type": "age",
+                                            "color": "251/141/118"
+                                        },
+                                        {
+                                            "name": "Roadian",
+                                            "type": "age",
+                                            "color": "251/128/105"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Cisuralian",
+                                    "type": "epoch",
+                                    "color": "239/88/69",
+                                    "children": [
+                                        {
+                                            "name": "Kungurian",
+                                            "type": "age",
+                                            "color": "227/135/118"
+                                        },
+                                        {
+                                            "name": "Artinskian",
+                                            "type": "age",
+                                            "color": "227/123/104"
+                                        },
+                                        {
+                                            "name": "Sakmarian",
+                                            "type": "age",
+                                            "color": "227/111/92"
+                                        },
+                                        {
+                                            "name": "Asselian",
+                                            "type": "age",
+                                            "color": "227/99/80"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Carboniferous",
+                            "type": "period",
+                            "color": "103/165/153",
+                            "children": [
+                                {
+                                    "name": "Pennsylvanian",
+                                    "type": "sub-period",
+                                    "color": "153/194/181",
+                                    "children": [
+                                        {
+                                            "name": "Upper Pennsylvanian",
+                                            "type": "epoch",
+                                            "color": "191/208/186",
+                                            "children": [
+                                                {
+                                                    "name": "Gzhelian",
+                                                    "type": "age",
+                                                    "color": "204/212/199"
+                                                },
+                                                {
+                                                    "name": "Kasimovian",
+                                                    "type": "age",
+                                                    "color": "191/208/197"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Middle Pennsylvanian",
+                                            "type": "epoch",
+                                            "color": "166/199/183",
+                                            "children": [
+                                                {
+                                                    "name": "Moscovian",
+                                                    "type": "age",
+                                                    "color": "179/203/185"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Lower Pennsylvanian",
+                                            "type": "epoch",
+                                            "color": "140/190/180",
+                                            "children": [
+                                                {
+                                                    "name": "Bashkirian",
+                                                    "type": "age",
+                                                    "color": "153/194/181"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Mississippian",
+                                    "type": "sub-period",
+                                    "color": "103/143/102",
+                                    "children": [
+                                        {
+                                            "name": "Upper Mississippian",
+                                            "type": "epoch",
+                                            "color": "179/190/108",
+                                            "children": [
+                                                {
+                                                    "name": "Serpukhovian",
+                                                    "type": "age",
+                                                    "color": "191/194/107"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Middle Mississippian",
+                                            "type": "epoch",
+                                            "color": "153/180/108",
+                                            "children": [
+                                                {
+                                                    "name": "Visean",
+                                                    "type": "age",
+                                                    "color": "166/185/108"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Lower Mississippian",
+                                            "type": "epoch",
+                                            "color": "128/171/108",
+                                            "children": [
+                                                {
+                                                    "name": "Tournaisian",
+                                                    "type": "age",
+                                                    "color": "140/176/108"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Devonian",
+                            "type": "period",
+                            "color": "203/140/55",
+                            "children": [
+                                {
+                                    "name": "Upper Devonian",
+                                    "type": "epoch",
+                                    "color": "241/225/157",
+                                    "children": [
+                                        {
+                                            "name": "Famennian",
+                                            "type": "age",
+                                            "color": "242/237/197"
+                                        },
+                                        {
+                                            "name": "Frasnian",
+                                            "type": "age",
+                                            "color": "242/237/173"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Middle Devonian",
+                                    "type": "epoch",
+                                    "color": "241/200/104",
+                                    "children": [
+                                        {
+                                            "name": "Givetian",
+                                            "type": "age",
+                                            "color": "241/225/133"
+                                        },
+                                        {
+                                            "name": "Eifelian",
+                                            "type": "age",
+                                            "color": "241/213/118"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Lower Devonian",
+                                    "type": "epoch",
+                                    "color": "241/200/104",
+                                    "children": [
+                                        {
+                                            "name": "Emsian",
+                                            "type": "age",
+                                            "color": "229/208/117"
+                                        },
+                                        {
+                                            "name": "Pragian",
+                                            "type": "age",
+                                            "color": "229/196/104"
+                                        },
+                                        {
+                                            "name": "Lochkovian",
+                                            "type": "age",
+                                            "color": "229/183/90"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Silurian",
+                            "type": "period",
+                            "color": "179/225/182",
+                            "children": [
+                                {
+                                    "name": "Pridoli",
+                                    "type": "epoch",
+                                    "color": "230/245/225",
+                                    "children": [
+                                        {
+                                            "name": "Pridoli",
+                                            "type": "age",
+                                            "color": "230/245/225"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Ludlow",
+                                    "type": "epoch",
+                                    "color": "191/230/207",
+                                    "children": [
+                                        {
+                                            "name": "Ludfordian",
+                                            "type": "age",
+                                            "color": "217/240/223"
+                                        },
+                                        {
+                                            "name": "Gorstian",
+                                            "type": "age",
+                                            "color": "204/236/221"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Wenlock",
+                                    "type": "epoch",
+                                    "color": "179/225/194",
+                                    "children": [
+                                        {
+                                            "name": "Homerian",
+                                            "type": "age",
+                                            "color": "204/235/209"
+                                        },
+                                        {
+                                            "name": "Sheinwoodian",
+                                            "type": "age",
+                                            "color": "191/230/195"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Llandovery",
+                                    "type": "epoch",
+                                    "color": "153/215/179","children": [
+                                    {
+                                        "name": "Telychian",
+                                        "type": "age",
+                                        "color": "191/230/207"
+                                    },
+                                    {
+                                        "name": "Aeronian",
+                                        "type": "age",
+                                        "color": "179/225/194"
+                                    },
+                                    {
+                                        "name": "Rhuddanian",
+                                        "type": "age",
+                                        "color": "166/220/181"
+                                    }
+                                ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Ordovician",
+                            "type": "period",
+                            "color": "0/146/112",
+                            "children": [
+                                {
+                                    "name": "Upper Ordovician",
+                                    "type": "epoch",
+                                    "color": "127/202/147",
+                                    "children": [
+                                        {
+                                            "name": "Hirnantian",
+                                            "type": "age",
+                                            "color": "166/219/171"
+                                        },
+                                        {
+                                            "name": "Katian",
+                                            "type": "age",
+                                            "color": "153/214/159"
+                                        },
+                                        {
+                                            "name": "Sandbian",
+                                            "type": "age",
+                                            "color": "140/208/148"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Middle Ordovician",
+                                    "type": "epoch",
+                                    "color": "77/180/126",
+                                    "children": [
+                                        {
+                                            "name": "Darriwilian",
+                                            "type": "age",
+                                            "color": "116/198/156"
+                                        },
+                                        {
+                                            "name": "Dapingian",
+                                            "type": "age",
+                                            "color": "102/192/146"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Lower Ordovician",
+                                    "type": "epoch",
+                                    "color": "26/157/111",
+                                    "children": [
+                                        {
+                                            "name": "Floian",
+                                            "type": "age",
+                                            "color": "65/176/135"
+                                        },
+                                        {
+                                            "name": "Tremadocian",
+                                            "type": "age",
+                                            "color": "51/169/126"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Cambrian",
+                            "type": "period",
+                            "color": "127/160/86",
+                            "children": [
+                                {
+                                    "name": "Furongian",
+                                    "type": "epoch",
+                                    "color": "179/224/149",
+                                    "children": [
+                                        {
+                                            "name": "Stage 10",
+                                            "type": "age",
+                                            "color": "230/245/201"
+                                        },
+                                        {
+                                            "name": "Jiangshanian",
+                                            "type": "age",
+                                            "color": "217/240/187"
+                                        },
+                                        {
+                                            "name": "Paibian",
+                                            "type": "age",
+                                            "color": "204/235/174"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Series 3",
+                                    "type": "epoch",
+                                    "color": "166/207/134",
+                                    "children": [
+                                        {
+                                            "name": "Guzhangian",
+                                            "type": "age",
+                                            "color": "204/223/170"
+                                        },
+                                        {
+                                            "name": "Drumian",
+                                            "type": "age",
+                                            "color": "191/217/157"
+                                        },
+                                        {
+                                            "name": "Stage 5",
+                                            "type": "age",
+                                            "color": "179/212/146"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Series 2",
+                                    "type": "epoch",
+                                    "color": "153/192/120",
+                                    "children": [
+                                        {
+                                            "name": "Stage 4",
+                                            "type": "age",
+                                            "color": "179/202/142"
+                                        },
+                                        {
+                                            "name": "Stage 3",
+                                            "type": "age",
+                                            "color": "166/197/131"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Terreneuvian",
+                                    "type": "epoch",
+                                    "color": "140/176/108",
+                                    "children": [
+                                        {
+                                            "name": "Stage 2",
+                                            "type": "age",
+                                            "color": "166/186/128"
+                                        },
+                                        {
+                                            "name": "Fortunian",
+                                            "type": "age",
+                                            "color": "153/181/117"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Precambrian",
+            "type": "todo",
+            "color": "247/67/112",
+            "children": [
+                {
+                    "name": "Proterozoic",
+                    "type": "eon",
+                    "color": "247/53/99",
+                    "children": [
+                        {
+                            "name": "Neoproterozoic",
+                            "type": "era",
+                            "color": "254/179/66",
+                            "children": [
+                                {
+                                    "name": "Ediacaran",
+                                    "type": "period",
+                                    "color": "254/217/106"
+                                },
+                                {
+                                    "name": "Cryogenian",
+                                    "type": "period",
+                                    "color": "254/204/92"
+                                },
+                                {
+                                    "name": "Tonian",
+                                    "type": "period",
+                                    "color": "254/191/78"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Mesoproterozoic",
+                            "type": "era",
+                            "color": "253/180/98",
+                            "children": [
+                                {
+                                    "name": "Stenian",
+                                    "type": "period",
+                                    "color": "254/217/154"
+                                },
+                                {
+                                    "name": "Ectasian",
+                                    "type": "period",
+                                    "color": "253/204/138"
+                                },
+                                {
+                                    "name": "Calymmia",
+                                    "type": "period",
+                                    "color": "253/192/122"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Paleoproterozoic",
+                            "type": "era",
+                            "color": "247/67/112",
+                            "children": [
+                                {
+                                    "name": "Statherian",
+                                    "type": "period",
+                                    "color": "248/117/167"
+                                },
+                                {
+                                    "name": "Orosirian",
+                                    "type": "period",
+                                    "color": "247/104/152"
+                                },
+                                {
+                                    "name": "Rhyacian",
+                                    "type": "period",
+                                    "color": "247/91/137"
+                                },
+                                {
+                                    "name": "Siderian",
+                                    "type": "period",
+                                    "color": "247/79/124"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Archean",
+                    "type": "eon",
+                    "color": "240/4/127",
+                    "children": [
+                        {
+                            "name": "Neoarchean",
+                            "type": "era",
+                            "color": "249/155/193",
+                            "children": [
+                                {
+                                    "name": "Neoarchean",
+                                    "type": "period",
+                                    "color": "250/167/200"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Mesoarchean",
+                            "type": "era",
+                            "color": "247/104/169",
+                            "children": [
+                                {
+                                    "name": "Mesoarchean",
+                                    "type": "period",
+                                    "color": "248/129/181"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Paleoarchean",
+                            "type": "era",
+                            "color": "244/68/159",
+                            "children": [
+                                {
+                                    "name": "Paleoarchean",
+                                    "type": "period",
+                                    "color": "246/104/178"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Eoarchean",
+                            "type": "era",
+                            "color": "218/3/127",
+                            "children": [
+                                {
+                                    "name": "Eoarchean",
+                                    "type": "period",
+                                    "color": "230/29/140"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Hadean",
+                    "type": "eon",
+                    "color": "174/2/126"
+                }
+            ]
+        }
+    ]
+}
