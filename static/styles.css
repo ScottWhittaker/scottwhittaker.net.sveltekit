@@ -17,9 +17,12 @@ iframe {
 	border: 1px solid var(--grey-200);
 }
 
+p {
+	margin-top: 1rem;
+}
+
 p,
 blockquote {
-	margin-top: 1rem;
 	line-height: 1.9rem;
 }
 
@@ -52,6 +55,12 @@ time {
 pre {
 	font-size: 0.8rem;
 	margin-bottom: 2rem;
+}
+
+blockquote,
+.info,
+.warn {
+	margin: 2rem 0;
 }
 
 .info {
