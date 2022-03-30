@@ -77,7 +77,7 @@ In order to fix this we could coerce the value to a boolean or use a ternary ope
 
 ## Conclusion
 
-The reason this was not familiar to me was that I would not have coded the example in the same way. Of course this is personal preference but I like to fail/bail early. I prefer this approach as it means we can avoid issues like the one above, also it avoids using the ternary operator approach, which I find hard to read, particularly when it is combined with jsx.
+The reason this was not familiar to me was that I would not have coded the example in the same way. Of course this is personal preference but I like to fail/bail early. I prefer this approach as it means we can avoid issues like the one above, also it avoids using the ternary operator approach, which I find hard to read if it is over multiple lines and combined with jsx.
 
 ```js
   if (!things.length) return null;
