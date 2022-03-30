@@ -8,7 +8,7 @@
 	<div class="g-wrapper">
 		<div class="wrapper">
 			<div>
-				<a href="/">
+				<a href="/" title="Home">
 					<Logo/>
 				</a>
 			</div>
