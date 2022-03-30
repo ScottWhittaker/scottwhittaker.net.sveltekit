@@ -1,6 +1,7 @@
 <script>
 	import Nav from '$lib/Nav.svelte';
 	import Logo from '$lib/Logo.svelte';
+	import SubHeader from '$lib/SubHeader.svelte';
 </script>
 
 <header>
@@ -11,13 +12,17 @@
 					<Logo/>
 				</a>
 			</div>
-			<h1 class="sr-only">Scott Whittaker</h1>
 			<Nav />
 		</div>
 	</div>
+	<SubHeader/>
 </header>
 
 <style>
+	header {
+		color: var(--white);
+		background-color: var(--grey-800);
+	}
 	.wrapper {
 		display: flex;
 		align-items: center;

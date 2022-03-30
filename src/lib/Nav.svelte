@@ -14,15 +14,15 @@
 		font-size: 1.125rem;
 	}
 	a {
+		color: var(--white);
 		text-decoration: none;
-		border-bottom: 4px solid transparent;
+		border-bottom: 1px solid transparent;
 	}
 	a:hover {
 		text-decoration: none;
-		color: inherit;
-		border-bottom-color: var(--grey-600);
 	}
+	a:hover,
 	.selected {
-		border-bottom-color: var(--red-700);
+		border-bottom-color: var(--white);
 	}
 </style>

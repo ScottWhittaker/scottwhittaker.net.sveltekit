@@ -2,13 +2,14 @@
 
 <style>
     svg {
-        width: 64px;
-        height: 64px;
+        width: 32px;
+        height: 32px;
+        fill: var(--white);
     }
 
     @media (hover: hover) {
         svg:hover {
-            fill: var(--red-700);
+            fill: var(--grey-400);
         }
     }
 </style>
