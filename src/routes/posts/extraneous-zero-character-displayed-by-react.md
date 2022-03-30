@@ -43,7 +43,7 @@ Note the line where we render the list of `<Thing>` components. It uses a logica
 {things.length && things.map((title) => <Thing title={title} />)}
 ```
 
-As result, in the UI, we see the 0 gets rendered.
+As a result, in the UI, we see the 0 gets rendered.
 
 <p style="display: flex; flex-direction: column; align-items: center;" class="info">
 <strong>Things</strong>
