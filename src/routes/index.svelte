@@ -23,6 +23,18 @@
 </svelte:head>
 
 <h2>Recent posts</h2>
-{#each posts as post}
-	<PostPreview post={post}/>
-{/each}
+<div class="grid">
+	{#each posts as post}
+		<PostPreview post={post}/>
+	{/each}
+</div>
+
+<style>
+	@media (min-width: 768px) {
+		.grid {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			column-gap: 2.5rem;
+		}
+	}
+</style>
