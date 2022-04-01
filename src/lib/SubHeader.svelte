@@ -1,18 +1,24 @@
-<div class="g-full-bleed">
-    <div class="g-wrapper">
-        <h1>Scott Whittaker</h1>
-        <p>Software engineer</p>
-        <p class="status">Day job React | side projects <strong>Svelte</strong></p>
-    </div>
+<script>
+    import FullBleed from '$lib/FullBleed.svelte';
+</script>
+
+<div class="wrapper">
+    <FullBleed>
+        <div class="grid">
+            <h1>Scott Whittaker</h1>
+            <p>Software engineer</p>
+            <p class="status">Day job React | side projects <strong>Svelte</strong></p>
+        </div>
+    </FullBleed>
 </div>
 
 <style>
-    .g-full-bleed {
+    .wrapper {
         padding: 1rem 0;
-        color: var(--white);
+        color: var(--grey-200);
         background-color: var(--grey-700);
     }
-    .g-wrapper {
+    .grid {
         display: flex;
         flex-direction: column;
     }
@@ -22,7 +28,6 @@
     }
     h1, p {
         margin: 0;
-        color: var(--grey-200);
     }
     p {
         font-size: smaller;
@@ -33,7 +38,7 @@
     }
 
     @media (min-width: 768px) {
-        .g-wrapper {
+        .grid {
             flex-direction: row;
             align-items: baseline;
             gap: 2rem;

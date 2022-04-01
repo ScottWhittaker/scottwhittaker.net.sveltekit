@@ -2,10 +2,11 @@
 	import Nav from '$lib/Nav.svelte';
 	import Logo from '$lib/Logo.svelte';
 	import SubHeader from '$lib/SubHeader.svelte';
+	import FullBleed from '$lib/FullBleed.svelte';
 </script>
 
 <header>
-	<div class="g-wrapper">
+	<FullBleed>
 		<div class="wrapper">
 			<div>
 				<a href="/" title="Home">
@@ -14,7 +15,7 @@
 			</div>
 			<Nav />
 		</div>
-	</div>
+	</FullBleed>
 	<SubHeader/>
 </header>
 

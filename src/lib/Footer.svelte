@@ -1,9 +1,13 @@
-<footer class="g-full-bleed">
-	<div class="g-wrapper">
+<script>
+	import FullBleed from '$lib/FullBleed.svelte';
+</script>
+
+<footer>
+	<FullBleed>
 		<p>
 			<code>// TODO<br>// replace this code with something better</code>
 		</p>
-	</div>
+	</FullBleed>
 </footer>
 
 <style>
