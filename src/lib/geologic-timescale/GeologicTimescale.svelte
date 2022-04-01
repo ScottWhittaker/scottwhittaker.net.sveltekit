@@ -244,10 +244,10 @@
 							<p>Rhaetian</p>
 						</div>
 						<div class="item" style="background-color: rgb(214,170,211);">
-							<p>child</p>
+							<p>Norian</p>
 						</div>
 						<div class="item" style="background-color: rgb(201,155,203);">
-							<p>child</p>
+							<p>Carnian</p>
 						</div>
 					</div>
 					<div class="item wrapper" style="grid-template-rows: repeat(2, auto);">
