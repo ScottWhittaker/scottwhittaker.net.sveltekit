@@ -274,7 +274,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="item wrapper" style="grid-template-rows: repeat(5, auto);">
+			<div class="item wrapper" style="grid-template-rows: repeat(6, auto);">
 				<div class="item span-rows era" style="background-color: rgb(153,192,141);">
 					<p>Paleozoic</p>
 				</div>
@@ -325,6 +325,41 @@
 						</div>
 					</div>
 				</div>
+
+				<div class="item wrapper" style="grid-template-rows: repeat(2, auto);">
+					<div class="item span-rows period" style="background-color: rgb(103,165,153);">
+						<p>Carboniferous</p>
+					</div>
+					<div class="item wrapper" style="grid-template-rows: repeat(3, auto);">
+						<div class="item span-rows epoch" style="background-color: rgb(153,194,181);">
+							<p>Pennsylvanian</p>
+						</div>
+						<div class="item" style="background-color: rgb(191,208,186);">
+							<p>Upper Pennsylvanian</p>
+						</div>
+						<div class="item" style="background-color: rgb(166,199,183);">
+							<p>Middle Pennsylvaniann</p>
+						</div>
+						<div class="item" style="background-color: rgb(140,190,180);">
+							<p>Lower Pennsylvanian</p>
+						</div>
+					</div>
+					<div class="item wrapper" style="grid-template-rows: repeat(3, auto);">
+						<div class="item span-rows epoch" style="background-color: rgb(103,143,102);">
+							<p>Mississippian</p>
+						</div>
+						<div class="item" style="background-color: rgb(191,194,107);">
+							<p>Upper Mississippian</p>
+						</div>
+						<div class="item" style="background-color: rgb(153,180,108);">
+							<p>Middle Mississippian</p>
+						</div>
+						<div class="item" style="background-color: rgb(128,171,108);">
+							<p>Lower Mississippian</p>
+						</div>
+					</div>
+				</div>
+
 				<div class="item wrapper" style="grid-template-rows: repeat(3, auto);">
 					<div class="item span-rows period" style="background-color: rgb(203,140,55);">
 						<p>Devonian</p>
