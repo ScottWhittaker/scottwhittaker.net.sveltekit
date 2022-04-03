@@ -331,31 +331,64 @@
 						<p>Carboniferous</p>
 					</div>
 					<div class="item wrapper" style="grid-template-rows: repeat(3, auto);">
-						<div class="item span-rows epoch" style="background-color: rgb(153,194,181);">
+						<div class="item span-rows sub-period" style="background-color: rgb(153,194,181);">
 							<p>Pennsylvanian</p>
 						</div>
-						<div class="item" style="background-color: rgb(191,208,186);">
-							<p>Upper Pennsylvanian</p>
+						<div class="item wrapper" style="grid-template-rows: repeat(2, auto);">
+							<div class="item span-rows epoch" style="background-color: rgb(191,208,186);">
+								<p>Upper</p>
+							</div>
+							<div class="item" style="background-color: rgb(204,212,199);">
+								<p>Gzhelian</p>
+							</div>
+							<div class="item" style="background-color: rgb(191,208,197);">
+								<p>Kasimovian</p>
+							</div>
 						</div>
-						<div class="item" style="background-color: rgb(166,199,183);">
-							<p>Middle Pennsylvaniann</p>
+						<div class="item wrapper" style="grid-template-rows: repeat(1, auto);">
+							<div class="item epoch" style="background-color: rgb(166,199,183);">
+								<p>Middle</p>
+							</div>
+							<div class="item" style="background-color: rgb(179,203,185);">
+								<p>Moscovian</p>
+							</div>
 						</div>
-						<div class="item" style="background-color: rgb(140,190,180);">
-							<p>Lower Pennsylvanian</p>
+						<div class="item wrapper" style="grid-template-rows: repeat(1, auto);">
+							<div class="item epoch" style="background-color: rgb(140,190,180);">
+								<p>Lower</p>
+							</div>
+							<div class="item" style="background-color: rgb(140,190,180);">
+								<p>Bashkirian</p>
+							</div>
 						</div>
 					</div>
 					<div class="item wrapper" style="grid-template-rows: repeat(3, auto);">
-						<div class="item span-rows epoch" style="background-color: rgb(103,143,102);">
+						<div class="item span-rows sub-period" style="background-color: rgb(103,143,102);">
 							<p>Mississippian</p>
 						</div>
-						<div class="item" style="background-color: rgb(191,194,107);">
-							<p>Upper Mississippian</p>
+						<div class="item wrapper" style="grid-template-rows: repeat(1, auto);">
+							<div class="item epoch" style="background-color: rgb(191,194,107);">
+								<p>Upper</p>
+							</div>
+							<div class="item" style="background-color: rgb(191,194,107);">
+								<p>Serpukhovian</p>
+							</div>
 						</div>
-						<div class="item" style="background-color: rgb(153,180,108);">
-							<p>Middle Mississippian</p>
+						<div class="item wrapper" style="grid-template-rows: repeat(1, auto);">
+							<div class="item epoch" style="background-color: rgb(153,180,108);">
+								<p>Middle</p>
+							</div>
+							<div class="item" style="background-color: rgb(166,185,108);">
+								<p>Visean</p>
+							</div>
 						</div>
-						<div class="item" style="background-color: rgb(128,171,108);">
-							<p>Lower Mississippian</p>
+						<div class="item wrapper" style="grid-template-rows: repeat(1, auto);">
+							<div class="item epoch" style="background-color: rgb(128,171,108);">
+								<p>Lower</p>
+							</div>
+							<div class="item" style="background-color: rgb(140,176,108);">
+								<p>Tournaisian</p>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -703,7 +736,8 @@
 
 	.eon > p,
 	.era > p,
-	.period > p {
+	.period > p,
+	.sub-period > p {
 		writing-mode: vertical-lr;
 		/* for browsers that support it e.g. firefox */
 		writing-mode: sideways-lr;
