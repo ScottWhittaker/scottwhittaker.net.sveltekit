@@ -22,6 +22,7 @@
 			value1={width}
 			label2="Height"
 			value2={height}
+			min="1"
 			max="400"
 			change={onDualRangeChanged}
 		/>

@@ -5,6 +5,7 @@
 	export let value2 = 0;
 	export let label1;
 	export let label2;
+	export let min = 0;
 	export let max = 100;
 	export let change;
 
@@ -23,7 +24,7 @@
 	<input
 		id={id1}
 		type="range"
-		min="0"
+		{min}
 		{max}
 		bind:value={value1}
 		on:input={change(value1, value2)}
@@ -33,7 +34,7 @@
 	<input
 		id={id2}
 		type="range"
-		min="0"
+		{min}
 		{max}
 		bind:value={value2}
 		on:input={change(value1, value2)}
