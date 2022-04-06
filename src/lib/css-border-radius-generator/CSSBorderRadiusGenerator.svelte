@@ -8,38 +8,24 @@
 	const onBorderControlsChanged = (styles) => (borderStyles = styles);
 </script>
 
-<header>
-	<h1>Border Radius Generator</h1>
-</header>
-<main>
+<div class="grid">
 	<div>
 		<BorderDisplay styles={borderStyles} />
 		<BorderStyles styles={borderStyles} />
 	</div>
 	<BorderControls onChange={onBorderControlsChanged} />
-</main>
+</div>
 
 <style>
-	h1 {
-		display: inline-block;
-		padding: 8px 16px;
-		color: #fff;
-		font-size: 18px;
-		background-color: #333;
-	}
-	header,
-	main {
+	.grid {
+		display: grid;
+		gap: 16px;
 		max-width: 1200px;
 		margin: 0 auto;
 	}
 
-	main {
-		display: grid;
-		gap: 16px;
-	}
-
 	@media (min-width: 771px) {
-		main {
+		.grid {
 			grid-template-columns: 3fr 1fr;
 		}
 	}
