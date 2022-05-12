@@ -13,6 +13,7 @@
 
 <script>
 	import PostPreview from '$lib/PostPreview.svelte';
+	import FullBleed from '$lib/FullBleed.svelte';
 
 	export let posts;
 </script>
@@ -22,7 +23,9 @@
 	<meta name="description" content="A list of posts" />
 </svelte:head>
 
-<h2>Posts</h2>
-{#each posts as post}
-	<PostPreview {post} />
-{/each}
+<FullBleed>
+	<h2>Posts</h2>
+	{#each posts as post}
+		<PostPreview {post} />
+	{/each}
+</FullBleed>

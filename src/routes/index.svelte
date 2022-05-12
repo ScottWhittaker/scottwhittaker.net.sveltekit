@@ -13,6 +13,9 @@
 
 <script>
 	import PostPreview from '$lib/PostPreview.svelte';
+	import FullBleed from '$lib/FullBleed.svelte';
+	import BorderRadiusGeneratorRow from '$lib/rows/BorderRadiusGeneratorRow.svelte';
+	import VolkswagonVanagonT3Row from '$lib/rows/VolkswagonVanagonT3Row.svelte';
 
 	export let posts;
 </script>
@@ -22,12 +25,18 @@
 	<meta name="description" content="Just dumping stuff of my brain occasionally." />
 </svelte:head>
 
-<h2>Recent posts</h2>
-<div class="grid">
-	{#each posts as post}
-		<PostPreview post={post}/>
-	{/each}
-</div>
+<BorderRadiusGeneratorRow/>
+
+<FullBleed>
+	<h2>Recent posts</h2>
+	<div class="grid">
+		{#each posts as post}
+			<PostPreview post={post}/>
+		{/each}
+	</div>
+</FullBleed>
+
+<VolkswagonVanagonT3Row />
 
 <style>
 	@media (min-width: 768px) {
