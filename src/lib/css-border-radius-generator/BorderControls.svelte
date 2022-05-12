@@ -57,8 +57,14 @@
 		});
 	};
 
+	const getValue = (v) => (v > 0 ? `${v}${lengthOrPercentage}` : '0');
+
 	$: onChange(
-		`${borders[0].value1}${lengthOrPercentage} ${borders[1].value1}${lengthOrPercentage} ${borders[3].value1}${lengthOrPercentage} ${borders[2].value1}${lengthOrPercentage} / ${borders[0].value2}${lengthOrPercentage} ${borders[1].value2}${lengthOrPercentage} ${borders[3].value2}${lengthOrPercentage} ${borders[2].value2}${lengthOrPercentage}`
+		`${getValue(borders[0].value1)} ${getValue(borders[1].value1)} ${getValue(
+			borders[3].value1
+		)} ${getValue(borders[2].value1)} / ${getValue(borders[0].value2)} ${getValue(
+			borders[1].value2
+		)} ${getValue(borders[3].value2)} ${getValue(borders[2].value2)}`
 	);
 </script>
 
