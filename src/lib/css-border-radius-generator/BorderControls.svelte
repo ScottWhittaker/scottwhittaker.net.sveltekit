@@ -1,6 +1,5 @@
 <script>
 	import BorderDualRange from './BorderDualRange.svelte';
-	import Quadrant from './Quadrant.svelte';
 	import Toolbar from './Toolbar.svelte';
 
 	export let onChange;
