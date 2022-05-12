@@ -5,7 +5,7 @@
 <footer>
 	<FullBleed>
 		<p>
-			<code>// TODO<br>// replace this code with something better</code>
+			<code>// TODO<br />// replace this code with something better</code>
 		</p>
 	</FullBleed>
 </footer>

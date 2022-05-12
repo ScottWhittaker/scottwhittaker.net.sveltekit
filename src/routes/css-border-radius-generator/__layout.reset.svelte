@@ -6,7 +6,10 @@
 
 <svelte:head>
 	<title>CSS Border Radius Generator</title>
-	<meta name="description" content="Just another CSS border radius generator. This one is written in svelte." />
+	<meta
+		name="description"
+		content="Just another CSS border radius generator. This one is written in svelte."
+	/>
 	<link rel="stylesheet" href="/reset.css" />
 	<link rel="stylesheet" href="/global.css" />
 	<link rel="stylesheet" href="/styles.css" />

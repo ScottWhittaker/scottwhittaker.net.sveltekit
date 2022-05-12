@@ -25,13 +25,13 @@
 	<meta name="description" content="Just dumping stuff of my brain occasionally." />
 </svelte:head>
 
-<BorderRadiusGeneratorRow/>
+<BorderRadiusGeneratorRow />
 
 <FullBleed>
 	<h2>Recent posts</h2>
 	<div class="grid">
 		{#each posts as post}
-			<PostPreview post={post}/>
+			<PostPreview {post} />
 		{/each}
 	</div>
 </FullBleed>

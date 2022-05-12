@@ -10,13 +10,13 @@
 		<div class="wrapper">
 			<div>
 				<a href="/" title="Home">
-					<Logo/>
+					<Logo />
 				</a>
 			</div>
 			<Nav />
 		</div>
 	</FullBleed>
-	<SubHeader/>
+	<SubHeader />
 </header>
 
 <style>

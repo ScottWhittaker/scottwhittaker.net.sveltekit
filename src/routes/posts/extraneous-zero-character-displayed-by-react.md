@@ -4,9 +4,9 @@ description: When using logical AND, React can display 0 in the UI in certain ci
 layout: post
 slug: extraneous-zero-character-displayed-by-react
 tags:
-- post
-- javascript
-- react
+  - post
+  - javascript
+  - react
 title: React displays 0 when using logical AND (&&)
 ---
 
@@ -16,31 +16,33 @@ Firstly, we have a `<Thing>` component, all it does is render a title in an `<h2
 
 ```js
 export default function Thing({ title }) {
-  return <h2>{title}</h2>;
+	return <h2>{title}</h2>;
 }
 ```
 
-Next we have a parent component that will render a list of `<Thing>` components. 
+Next we have a parent component that will render a list of `<Thing>` components.
 
 ```js
-import Thing from "./Thing";
+import Thing from './Thing';
 
 export default function App() {
-  const things = [];
+	const things = [];
 
-  return (
-    <div className="App">
-      <h1>Things</h1>
-      {things.length && things.map((title) => <Thing title={title} />)}
-    </div>
-  );
+	return (
+		<div className="App">
+			<h1>Things</h1>
+			{things.length && things.map((title) => <Thing title={title} />)}
+		</div>
+	);
 }
 ```
 
-Note the line where we render the list of `<Thing>` components. It uses a logical AND (&&), the operand on the left side is `things.length`. We can see above that the `things` array is empty, thus `things.length` will evaluate to `0`.  
+Note the line where we render the list of `<Thing>` components. It uses a logical AND (&&), the operand on the left side is `things.length`. We can see above that the `things` array is empty, thus `things.length` will evaluate to `0`.
 
 ```js
-{things.length && things.map((title) => <Thing title={title} />)}
+{
+	things.length && things.map((title) => <Thing title={title} />);
+}
 ```
 
 As a result, in the UI, we see the 0 gets rendered.
@@ -62,17 +64,23 @@ In order to fix this we could coerce the value to a boolean or use a ternary ope
 ### Coerce to boolean
 
 ```js
-{ Boolean(things.length) && things.map((title) => <Thing title={title} />) }
+{
+	Boolean(things.length) && things.map((title) => <Thing title={title} />);
+}
 
 // or...
 
-{ !!things.length && things.map((title) => <Thing title={title} />) }
+{
+	!!things.length && things.map((title) => <Thing title={title} />);
+}
 ```
 
 ### Use the ternary operator
 
 ```js
-{things.length ? null : things.map((title) => <Thing title={title} />)}
+{
+	things.length ? null : things.map((title) => <Thing title={title} />);
+}
 ```
 
 ## Conclusion
@@ -80,19 +88,14 @@ In order to fix this we could coerce the value to a boolean or use a ternary ope
 The reason this was not familiar to me was that I would not have coded the example in the same way. Of course this is personal preference but I like to fail/bail early. I prefer this approach as it means we can avoid issues like the one above, also it avoids using the ternary operator approach, which I find hard to read if it is over multiple lines and combined with jsx.
 
 ```js
-  if (!things.length) return null;
+if (!things.length) return null;
 
-  return (
-    <div className="App">
-      <h1>Things</h1>
-      {things.map((title) => (
-        <Thing title={title} />
-      ))}
-    </div>
-  );
+return (
+	<div className="App">
+		<h1>Things</h1>
+		{things.map((title) => (
+			<Thing title={title} />
+		))}
+	</div>
+);
 ```
-
-
-
-
-

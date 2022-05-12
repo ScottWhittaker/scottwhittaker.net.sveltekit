@@ -21,24 +21,10 @@
 
 <div>
 	<label for={id1} class="sr-only">{label1}</label>
-	<input
-		id={id1}
-		type="range"
-		{min}
-		{max}
-		bind:value={value1}
-		on:input={change(value1, value2)}
-	/>
+	<input id={id1} type="range" {min} {max} bind:value={value1} on:input={change(value1, value2)} />
 	<span>{value1}</span>
 	<label for={id2} class="sr-only">{label2}</label>
-	<input
-		id={id2}
-		type="range"
-		{min}
-		{max}
-		bind:value={value2}
-		on:input={change(value1, value2)}
-	/>
+	<input id={id2} type="range" {min} {max} bind:value={value2} on:input={change(value1, value2)} />
 	<span>{value2}</span>
 </div>
 

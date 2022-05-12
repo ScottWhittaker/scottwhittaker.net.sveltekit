@@ -13,8 +13,7 @@
 		<button
 			on:click={onToolbarClick(selectedBorderIndex, border.index)}
 			aria-label={`Copy styles to ${border.label} border`}
-			title={`Copy styles to ${border.label} border`}
-			><Quadrant selected={border.index} /></button
+			title={`Copy styles to ${border.label} border`}><Quadrant selected={border.index} /></button
 		>
 	{/each}
 	<button class="reset" on:click={onReset(selectedBorderIndex)} aria-label="Reset" title="Reset">
