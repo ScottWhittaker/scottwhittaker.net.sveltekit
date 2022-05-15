@@ -22,7 +22,7 @@
 
 <svelte:head>
 	<title>Scott Whittaker</title>
-	<meta name="description" content="Just dumping stuff of my brain occasionally." />
+	<meta name="description" content="Just dumping stuff out of my brain occasionally." />
 </svelte:head>
 
 <BorderRadiusGeneratorRow />
