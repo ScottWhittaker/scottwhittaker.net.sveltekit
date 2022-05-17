@@ -41,7 +41,7 @@ Note the line where we render the list of `<Thing>` components. It uses a logica
 
 ```js
 {
-	things.length && things.map((title) => <Thing title={title} />);
+	things.length && things.map((title) => <Thing title={title} />)
 }
 ```
 
