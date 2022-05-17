@@ -65,13 +65,13 @@ In order to fix this we could coerce the value to a boolean or use a ternary ope
 
 ```js
 {
-	Boolean(things.length) && things.map((title) => <Thing title={title} />);
+	Boolean(things.length) && things.map((title) => <Thing title={title} />)
 }
 
 // or...
 
 {
-	!!things.length && things.map((title) => <Thing title={title} />);
+	!!things.length && things.map((title) => <Thing title={title} />)
 }
 ```
 
@@ -79,7 +79,7 @@ In order to fix this we could coerce the value to a boolean or use a ternary ope
 
 ```js
 {
-	things.length ? null : things.map((title) => <Thing title={title} />);
+	things.length ? things.map((title) => <Thing title={title} />) : null
 }
 ```
 
