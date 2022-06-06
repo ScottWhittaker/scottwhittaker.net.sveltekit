@@ -10,7 +10,9 @@
 	{#if description}
 		<p>{description}</p>
 	{/if}
-	<PostDateTime {date} />
+	{#if date}
+		<PostDateTime {date} />
+	{/if}
 </article>
 
 <style>

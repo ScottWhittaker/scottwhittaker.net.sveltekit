@@ -1,21 +1,8 @@
-<script context="module">
-	import { getSortedPosts } from '$lib/utils';
-
-	export async function load() {
-		const sortedPosts = await getSortedPosts();
-		return {
-			props: {
-				posts: sortedPosts
-			}
-		};
-	}
-</script>
-
 <script>
 	import PostPreview from '$lib/PostPreview.svelte';
 	import FullBleed from '$lib/FullBleed.svelte';
 
-	export let posts;
+	export let sortedPosts;
 </script>
 
 <svelte:head>
@@ -25,7 +12,9 @@
 
 <FullBleed>
 	<h2>Posts</h2>
-	{#each posts as post}
+	{#each sortedPosts as post}
+		{#if post}
 		<PostPreview {post} />
+			{/if}
 	{/each}
 </FullBleed>
