@@ -14,7 +14,7 @@
 	<h2>Posts</h2>
 	{#each sortedPosts as post}
 		{#if post}
-		<PostPreview {post} />
-			{/if}
+			<PostPreview {post} />
+		{/if}
 	{/each}
 </FullBleed>
