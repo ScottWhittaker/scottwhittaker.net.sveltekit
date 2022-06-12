@@ -1,0 +1,618 @@
+{
+	"customEmulatedDeviceList": [
+		{
+			"title": "1080p",
+			"type": "unknown",
+			"user-agent": "",
+			"capabilities": [],
+			"screen": {
+				"device-pixel-ratio": 0,
+				"vertical": {
+					"width": 1920,
+					"height": 1080
+				},
+				"horizontal": {
+					"width": 1080,
+					"height": 1920
+				}
+			},
+			"modes": [
+				{
+					"title": "",
+					"orientation": "vertical",
+					"insets": {
+						"left": 0,
+						"top": 0,
+						"right": 0,
+						"bottom": 0
+					}
+				},
+				{
+					"title": "",
+					"orientation": "horizontal",
+					"insets": {
+						"left": 0,
+						"top": 0,
+						"right": 0,
+						"bottom": 0
+					}
+				}
+			],
+			"show-by-default": true,
+			"dual-screen": false,
+			"show": "Always"
+		},
+		{
+			"title": "720p",
+			"type": "unknown",
+			"user-agent": "",
+			"capabilities": ["mobile", "touch"],
+			"screen": {
+				"device-pixel-ratio": 0,
+				"vertical": {
+					"width": 1280,
+					"height": 720
+				},
+				"horizontal": {
+					"width": 720,
+					"height": 1280
+				}
+			},
+			"modes": [
+				{
+					"title": "",
+					"orientation": "vertical",
+					"insets": {
+						"left": 0,
+						"top": 0,
+						"right": 0,
+						"bottom": 0
+					}
+				},
+				{
+					"title": "",
+					"orientation": "horizontal",
+					"insets": {
+						"left": 0,
+						"top": 0,
+						"right": 0,
+						"bottom": 0
+					}
+				}
+			],
+			"show-by-default": true,
+			"dual-screen": false,
+			"show": "Default"
+		},
+		{
+			"title": "Horizon",
+			"type": "unknown",
+			"user-agent": "Mozilla/5.0 (Linux armv7l) AppleWebKit/602.1.28+ (KHTML, like Gecko) Version/9.1 Safari/601.5.17, VirginMedia_STB_05.4525.9616.13/EOS1008C-mon-web-00.02-092-fh-AL-20200519182625-un000 (Humax_liberty,EOS-1008C,Wired) HZN/4.25 (MN=EOS-1008C;PC=EOSSTB;FV=EOS1008C-mon-web-00.02-092-fh-AL-20200519182625-un000;)",
+			"capabilities": [],
+			"screen": {
+				"device-pixel-ratio": 0,
+				"vertical": {
+					"width": 1920,
+					"height": 1080
+				},
+				"horizontal": {
+					"width": 1080,
+					"height": 1920
+				}
+			},
+			"modes": [
+				{
+					"title": "",
+					"orientation": "vertical",
+					"insets": {
+						"left": 0,
+						"top": 0,
+						"right": 0,
+						"bottom": 0
+					}
+				},
+				{
+					"title": "",
+					"orientation": "horizontal",
+					"insets": {
+						"left": 0,
+						"top": 0,
+						"right": 0,
+						"bottom": 0
+					}
+				}
+			],
+			"show-by-default": true,
+			"dual-screen": false,
+			"show": "Always",
+			"user-agent-metadata": {
+				"brands": [],
+				"fullVersion": "",
+				"platform": "",
+				"platformVersion": "",
+				"architecture": "",
+				"model": "",
+				"mobile": false
+			}
+		},
+		{
+			"title": "Tivo",
+			"type": "unknown",
+			"user-agent": "Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36 OPR/36.0.2128.0 OMI/4.8.0.129.JFK.500 TiVo, VirginMedia_STB_BCM7252S/20.8.1.RC11-VMB-11 (VirginMedia, TCDC68000, wired)",
+			"capabilities": [],
+			"screen": {
+				"device-pixel-ratio": 0,
+				"vertical": {
+					"width": 1920,
+					"height": 1080
+				},
+				"horizontal": {
+					"width": 1080,
+					"height": 1920
+				}
+			},
+			"modes": [
+				{
+					"title": "",
+					"orientation": "vertical",
+					"insets": {
+						"left": 0,
+						"top": 0,
+						"right": 0,
+						"bottom": 0
+					}
+				},
+				{
+					"title": "",
+					"orientation": "horizontal",
+					"insets": {
+						"left": 0,
+						"top": 0,
+						"right": 0,
+						"bottom": 0
+					}
+				}
+			],
+			"show-by-default": true,
+			"dual-screen": false,
+			"show": "Always",
+			"user-agent-metadata": {
+				"brands": [],
+				"fullVersion": "",
+				"platform": "",
+				"platformVersion": "",
+				"architecture": "",
+				"model": "",
+				"mobile": false
+			}
+		},
+		{
+			"title": "YouView",
+			"type": "unknown",
+			"user-agent": "YouViewHTML/1.0 AppleWebKit/538.1 (Humax; DTRT2100; 84B08500; CDS/32.53.10; API/3.2.0; PS/3.7.58) (+DVR+HTML+MHEG+IPCMC+DASH+DRM)",
+			"capabilities": [],
+			"screen": {
+				"device-pixel-ratio": 0,
+				"vertical": {
+					"width": 1920,
+					"height": 1080
+				},
+				"horizontal": {
+					"width": 1080,
+					"height": 1920
+				}
+			},
+			"modes": [
+				{
+					"title": "",
+					"orientation": "vertical",
+					"insets": {
+						"left": 0,
+						"top": 0,
+						"right": 0,
+						"bottom": 0
+					}
+				},
+				{
+					"title": "",
+					"orientation": "horizontal",
+					"insets": {
+						"left": 0,
+						"top": 0,
+						"right": 0,
+						"bottom": 0
+					}
+				}
+			],
+			"show-by-default": true,
+			"dual-screen": false,
+			"show": "Default",
+			"user-agent-metadata": {
+				"brands": [],
+				"fullVersion": "",
+				"platform": "",
+				"platformVersion": "",
+				"architecture": "",
+				"model": "",
+				"mobile": false
+			}
+		},
+		{
+			"title": "Amazon",
+			"type": "unknown",
+			"user-agent": "Mozilla/5.0 (Linux; U; Android 4.2.2; en-us; AFTB Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
+			"capabilities": [],
+			"screen": {
+				"device-pixel-ratio": 0,
+				"vertical": {
+					"width": 1920,
+					"height": 1080
+				},
+				"horizontal": {
+					"width": 1080,
+					"height": 1920
+				}
+			},
+			"modes": [
+				{
+					"title": "",
+					"orientation": "vertical",
+					"insets": {
+						"left": 0,
+						"top": 0,
+						"right": 0,
+						"bottom": 0
+					}
+				},
+				{
+					"title": "",
+					"orientation": "horizontal",
+					"insets": {
+						"left": 0,
+						"top": 0,
+						"right": 0,
+						"bottom": 0
+					}
+				}
+			],
+			"show-by-default": true,
+			"dual-screen": false,
+			"show": "Default",
+			"user-agent-metadata": {
+				"brands": [],
+				"fullVersion": "",
+				"platform": "",
+				"platformVersion": "",
+				"architecture": "",
+				"model": "",
+				"mobile": false
+			}
+		},
+		{
+			"title": "Amazon-LiveTV",
+			"type": "unknown",
+			"user-agent": "Android 4.2.2; AFT Build/JDQ39 All4/6.1.0",
+			"capabilities": [],
+			"screen": {
+				"device-pixel-ratio": 0,
+				"vertical": {
+					"width": 1920,
+					"height": 1080
+				},
+				"horizontal": {
+					"width": 1080,
+					"height": 1920
+				}
+			},
+			"modes": [
+				{
+					"title": "",
+					"orientation": "vertical",
+					"insets": {
+						"left": 0,
+						"top": 0,
+						"right": 0,
+						"bottom": 0
+					}
+				},
+				{
+					"title": "",
+					"orientation": "horizontal",
+					"insets": {
+						"left": 0,
+						"top": 0,
+						"right": 0,
+						"bottom": 0
+					}
+				}
+			],
+			"show-by-default": true,
+			"dual-screen": false,
+			"show": "Default",
+			"user-agent-metadata": {
+				"brands": [],
+				"fullVersion": "",
+				"platform": "",
+				"platformVersion": "",
+				"architecture": "",
+				"model": "",
+				"mobile": false
+			}
+		},
+		{
+			"title": "SoIP",
+			"type": "unknown",
+			"user-agent": "Mozilla/5.0 (Linux; x86_64 GNU/Linux) AppleWebKit/601.1 (KHTML, like Gecko) Version/8.0 Safari/601.1 WPE Sky_OTT_RTD1319_2020/1.0.0 (Sky, XiOneUK, )",
+			"capabilities": [],
+			"screen": {
+				"device-pixel-ratio": 0,
+				"vertical": {
+					"width": 1920,
+					"height": 1080
+				},
+				"horizontal": {
+					"width": 1080,
+					"height": 1920
+				}
+			},
+			"modes": [
+				{
+					"title": "",
+					"orientation": "vertical",
+					"insets": {
+						"left": 0,
+						"top": 0,
+						"right": 0,
+						"bottom": 0
+					}
+				},
+				{
+					"title": "",
+					"orientation": "horizontal",
+					"insets": {
+						"left": 0,
+						"top": 0,
+						"right": 0,
+						"bottom": 0
+					}
+				}
+			],
+			"show-by-default": true,
+			"dual-screen": false,
+			"show": "Default",
+			"user-agent-metadata": {
+				"brands": [],
+				"fullVersion": "",
+				"platform": "",
+				"platformVersion": "",
+				"architecture": "",
+				"model": "",
+				"mobile": false
+			}
+		},
+		{
+			"title": "Tizen",
+			"type": "unknown",
+			"user-agent": "Mozilla/5.0 (SMART-TV; LINUX; Tizen 4.0) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 TV Safari/537.36",
+			"capabilities": [],
+			"screen": {
+				"device-pixel-ratio": 0,
+				"vertical": {
+					"width": 1920,
+					"height": 1080
+				},
+				"horizontal": {
+					"width": 1080,
+					"height": 1920
+				}
+			},
+			"modes": [
+				{
+					"title": "",
+					"orientation": "vertical",
+					"insets": {
+						"left": 0,
+						"top": 0,
+						"right": 0,
+						"bottom": 0
+					}
+				},
+				{
+					"title": "",
+					"orientation": "horizontal",
+					"insets": {
+						"left": 0,
+						"top": 0,
+						"right": 0,
+						"bottom": 0
+					}
+				}
+			],
+			"show-by-default": true,
+			"dual-screen": false,
+			"show": "Default",
+			"user-agent-metadata": {
+				"brands": [
+					{
+						"brand": "",
+						"version": ""
+					}
+				],
+				"fullVersion": "",
+				"platform": "",
+				"platformVersion": "",
+				"architecture": "",
+				"model": "",
+				"mobile": false
+			}
+		},
+		{
+			"title": "Tivo 2",
+			"type": "unknown",
+			"user-agent": "Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36 OPR/36.0.2128.0 OMI/4.8.0.129.JFK.651 TiVo, VirginMedia_STB_BCM7252S/20.10.1.1.RC5-VMB-11 (VirginMedia, TCDC68000, wired)",
+			"capabilities": ["mobile", "touch"],
+			"screen": {
+				"device-pixel-ratio": 0,
+				"vertical": {
+					"width": 1920,
+					"height": 1080
+				},
+				"horizontal": {
+					"width": 1080,
+					"height": 1920
+				}
+			},
+			"modes": [
+				{
+					"title": "",
+					"orientation": "vertical",
+					"insets": {
+						"left": 0,
+						"top": 0,
+						"right": 0,
+						"bottom": 0
+					}
+				},
+				{
+					"title": "",
+					"orientation": "horizontal",
+					"insets": {
+						"left": 0,
+						"top": 0,
+						"right": 0,
+						"bottom": 0
+					}
+				}
+			],
+			"show-by-default": true,
+			"dual-screen": false,
+			"show": "Default",
+			"user-agent-metadata": {
+				"brands": [
+					{
+						"brand": "",
+						"version": ""
+					}
+				],
+				"fullVersion": "",
+				"platform": "",
+				"platformVersion": "",
+				"architecture": "",
+				"model": "",
+				"mobile": true
+			}
+		},
+		{
+			"title": "Freesat",
+			"type": "unknown",
+			"user-agent": "Opera/9.80 (Linux mips; U; HbbTV/1.1.1 (; Freesat/1.0; hdr1000s; 1.0.0; 1.0.0; wired); ce-html/1.0; en) Presto/2.10.250 Version/11.60",
+			"capabilities": [],
+			"screen": {
+				"device-pixel-ratio": 0,
+				"vertical": {
+					"width": 1920,
+					"height": 1080
+				},
+				"horizontal": {
+					"width": 1080,
+					"height": 1920
+				}
+			},
+			"modes": [
+				{
+					"title": "",
+					"orientation": "vertical",
+					"insets": {
+						"left": 0,
+						"top": 0,
+						"right": 0,
+						"bottom": 0
+					}
+				},
+				{
+					"title": "",
+					"orientation": "horizontal",
+					"insets": {
+						"left": 0,
+						"top": 0,
+						"right": 0,
+						"bottom": 0
+					}
+				}
+			],
+			"show-by-default": true,
+			"dual-screen": false,
+			"show": "Default",
+			"user-agent-metadata": {
+				"brands": [
+					{
+						"brand": "",
+						"version": ""
+					}
+				],
+				"fullVersion": "",
+				"platform": "",
+				"platformVersion": "",
+				"architecture": "",
+				"model": "",
+				"mobile": false
+			}
+		},
+		{
+			"title": "webOS TV 5.0",
+			"type": "unknown",
+			"user-agent": "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36 WebAppManager",
+			"capabilities": [],
+			"screen": {
+				"device-pixel-ratio": 0,
+				"vertical": {
+					"width": 1920,
+					"height": 1080
+				},
+				"horizontal": {
+					"width": 1080,
+					"height": 1920
+				}
+			},
+			"modes": [
+				{
+					"title": "",
+					"orientation": "vertical",
+					"insets": {
+						"left": 0,
+						"top": 0,
+						"right": 0,
+						"bottom": 0
+					}
+				},
+				{
+					"title": "",
+					"orientation": "horizontal",
+					"insets": {
+						"left": 0,
+						"top": 0,
+						"right": 0,
+						"bottom": 0
+					}
+				}
+			],
+			"show-by-default": true,
+			"dual-screen": false,
+			"show": "Default",
+			"user-agent-metadata": {
+				"brands": [
+					{
+						"brand": "",
+						"version": ""
+					}
+				],
+				"fullVersion": "",
+				"platform": "",
+				"platformVersion": "",
+				"architecture": "",
+				"model": "",
+				"mobile": false
+			}
+		}
+	]
+}
