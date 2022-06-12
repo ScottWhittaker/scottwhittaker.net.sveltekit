@@ -22,7 +22,11 @@ On a mac the `Preferences` file can be found here...
 /Users/<username>/Library/Application Support/Google/Chrome/Default/Preferences
 ```
 
-Preferences are saved as a JSON object and the custom emulated devices are saved as a JSON string on the following property: `devtools.preferences.customEmulatedDeviceList`.
+Preferences are saved as a JSON object and the custom emulated devices are saved as a JSON string on the following property... 
+
+```
+devtools.preferences.customEmulatedDeviceList
+```
 
 ### Emulated device list
 
